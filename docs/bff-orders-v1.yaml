@@ -22,6 +22,9 @@ tags:
   - name: Dummy
     description: |
       APIs sem função.
+  - name: Orders
+    description: |
+      APIs de pedidos.
 paths:
   /dummy:
     get:
@@ -39,6 +42,62 @@ paths:
                   $ref: '#/components/schemas/DummyData'
         '401':
           $ref: '#/components/responses/UnauthorizedError'
+        '5XX':
+          $ref: '#/components/responses/InternalServerError'
+      security:
+        - bearerAuth: []
+  /orders:
+    get:
+      tags:
+        - Orders
+      summary: Lista de pedidos
+      parameters:
+        - in: query
+          name: sort
+          schema:
+            type: string
+            enum: [asc, desc]
+            default: desc
+          required: false
+          description: Ordenação
+      responses:
+        '200':
+          description: Chamada realizada com sucesso.
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/OrderData'
+        '401':
+          $ref: '#/components/responses/UnauthorizedError'
+        '5XX':
+          $ref: '#/components/responses/InternalServerError'
+      security:
+        - bearerAuth: []
+  /orders/{orderId}:
+    get:
+      tags:
+        - Orders
+      summary: Retorna um pedido dado o seu id
+      parameters:
+        - in: path
+          name: orderId
+          schema:
+            type: string
+          required: true
+          description: ID do pedido
+      responses:
+        '200':
+          description: Chamada realizada com sucesso.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/OrderData'
+        '401':
+          $ref: '#/components/responses/UnauthorizedError'
+        '404':
+          $ref: '#/components/responses/NotFoundError'
         '5XX':
           $ref: '#/components/responses/InternalServerError'
       security:
@@ -107,3 +166,36 @@ components:
         description:
           type: string
           description: descrição aleatória
+    OrderItem:
+      type: object
+      properties:
+        productId:
+          type: string
+        totalAmount:
+          type: number
+        quantity:
+          type: number
+    OrderData:
+      type: object
+      properties:
+        orderId:
+          type: string
+        userId:
+          type: string
+        orderDate:
+          type: string
+        status:
+          enum: [received]
+          description: >
+            codes:
+
+            * received - Pedido recebido, aguardando confirmação de pagamento.
+        items:
+          type: array
+          items:
+            $ref: '#/components/schemas/OrderItem'
+        totalAmount:
+          type: number
+          
+
+

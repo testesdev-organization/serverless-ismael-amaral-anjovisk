@@ -1,4 +1,4 @@
-import { handleRestAPI } from '../src/index'
+import { handleOrderByIdRestAPI, handleOrdersRestAPI, handleRestAPI } from '../src/index'
 
 describe('handleRestAPI', () => {
   beforeAll(() => {
@@ -20,5 +20,37 @@ describe('handleRestAPI', () => {
       }),
       statusCode: 200
     })
+  })
+})
+
+describe('handleOrdersRestAPI', () => {
+  beforeAll(() => {
+    jest.spyOn(console, 'info').mockImplementation(() => {})
+    jest.spyOn(console, 'error').mockImplementation(() => {})
+    jest.useRealTimers()
+  })
+
+  beforeEach(() => {
+    jest.clearAllMocks()
+  })
+
+  it('should return 200', async () => {
+    await expect(handleOrdersRestAPI({} as any, {} as any)).rejects.toThrow('Not implemented')
+  })
+})
+
+describe('handleOrderByIdRestAPI', () => {
+  beforeAll(() => {
+    jest.spyOn(console, 'info').mockImplementation(() => {})
+    jest.spyOn(console, 'error').mockImplementation(() => {})
+    jest.useRealTimers()
+  })
+
+  beforeEach(() => {
+    jest.clearAllMocks()
+  })
+
+  it('should return 200', async () => {
+    await expect(handleOrderByIdRestAPI({} as any, {} as any)).rejects.toThrow('Not implemented')
   })
 })

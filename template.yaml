@@ -123,6 +123,68 @@ Resources:
           Value: !Sub '${ApplicationName}-${StackName}-${StackEnvironment}'
         - Key: "pfm:application:resource"
           Value: !Sub '${ApplicationName}-${StackName}-${StackEnvironment}-GeneralFunction128LogGroup'
+  GetOrders:
+    Type: AWS::Serverless::Function
+    Properties:
+      Description: |
+        [Orders] Lista de pedidos
+      CodeUri: lambda/dist
+      Handler: index.handleOrdersRestAPI
+      Architectures:
+        - x86_64
+      Layers:
+        - !Ref DeveloperTestLayerV1
+      Events:
+        GetOrdersApiEvent:
+          Type: Api
+          Properties:
+            RestApiId: !Ref DeveloperTestApiGatewayApi
+            Path: /v1/orders
+            Method: get
+      Tags:
+        "pfm:application:name": !Sub '${ApplicationName}-${StackName}-${StackEnvironment}'
+        "pfm:application:resource": !Sub '${ApplicationName}-${StackName}-${StackEnvironment}-GetOrders'
+  GetOrdersLogGroup:
+    Type: AWS::Logs::LogGroup
+    Properties:
+      LogGroupName: !Sub '/aws/lambda/${GetOrders}'
+      RetentionInDays: 1
+      Tags:
+        - Key: "pfm:application:name"
+          Value: !Sub '${ApplicationName}-${StackName}-${StackEnvironment}'
+        - Key: "pfm:application:resource"
+          Value: !Sub '${ApplicationName}-${StackName}-${StackEnvironment}-GetOrdersLogGroup'
+  GetOrderById:
+    Type: AWS::Serverless::Function
+    Properties:
+      Description: |
+        [Orders] Obter pedido por id
+      CodeUri: lambda/dist
+      Handler: index.handleOrderByIdRestAPI
+      Architectures:
+        - x86_64
+      Layers:
+        - !Ref DeveloperTestLayerV1
+      Events:
+        GetOrderByIdApiEvent:
+          Type: Api
+          Properties:
+            RestApiId: !Ref DeveloperTestApiGatewayApi
+            Path: /v1/orders/{orderId}
+            Method: get
+      Tags:
+        "pfm:application:name": !Sub '${ApplicationName}-${StackName}-${StackEnvironment}'
+        "pfm:application:resource": !Sub '${ApplicationName}-${StackName}-${StackEnvironment}-GetOrderById'
+  GetOrderByIdLogGroup:
+    Type: AWS::Logs::LogGroup
+    Properties:
+      LogGroupName: !Sub '/aws/lambda/${GetOrderById}'
+      RetentionInDays: 1
+      Tags:
+        - Key: "pfm:application:name"
+          Value: !Sub '${ApplicationName}-${StackName}-${StackEnvironment}'
+        - Key: "pfm:application:resource"
+          Value: !Sub '${ApplicationName}-${StackName}-${StackEnvironment}-GetOrderByIdLogGroup'
 
   #Lambda Layer
   DeveloperTestLayerV1:

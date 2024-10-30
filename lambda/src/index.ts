@@ -12,3 +12,17 @@ export const handleRestAPI = async (
     })
   }
 }
+
+export const handleOrdersRestAPI = async (
+  event: APIGatewayProxyEvent,
+  context: Context
+): Promise<APIGatewayProxyResult> => {
+  throw new Error('Not implemented')
+}
+
+export const handleOrderByIdRestAPI = async (
+  event: APIGatewayProxyEvent,
+  context: Context
+): Promise<APIGatewayProxyResult> => {
+  throw new Error('Not implemented')
+}
