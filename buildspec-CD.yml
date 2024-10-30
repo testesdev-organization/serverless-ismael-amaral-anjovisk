@@ -1,0 +1,41 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: 18.x
+    commands:
+      # install linux packages
+      - sudo apt update
+      - sudo apt install zip
+      # install project dependencies
+      - cd ${CODEBUILD_SRC_DIR}
+      - cd ./lambda
+      - echo installing dependencies...
+      - npm run installDependencies
+  pre_build:
+    on-failure: ABORT
+    commands:
+      - cd ${CODEBUILD_SRC_DIR}
+      - cd ./lambda
+      # run tests
+      - echo running tests...
+      - npm run test:nocoverage
+  build:
+    on-failure: ABORT
+    commands:
+      - cd ${CODEBUILD_SRC_DIR}
+      - cd ./lambda
+      - echo Build started
+      - npm run build
+      - echo Build completed
+  post_build:
+    on-failure: ABORT
+    commands:
+      - cd ${CODEBUILD_SRC_DIR}
+      - echo packaging cloudformation template file...
+      - aws cloudformation package --template-file ./template.yaml --output-template-file stack-sam-template.template --s3-bucket testdev-stack-deploy --s3-prefix template-artifacts/$(date '+%Y%m%d%H%M%S')
+      - zip artifacts.zip stack-sam-template.template  template-params.json
+artifacts:
+  files:
+    - artifacts.zip

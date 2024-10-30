@@ -1,0 +1,109 @@
+openapi: 3.0.2
+info:
+  description: |
+    APIs do BFF Developer.
+  version: 1.0.0-beta-1
+  title: APIs
+  contact:
+    email: ismael@investplay.com.br
+servers:
+    - description: BFF
+      url: https://api.{domain}/public/v1
+      variables:
+        domain:
+          description: Domínio
+          default: 'developer-test.click'
+          enum:
+            - developer-test.click
+externalDocs:
+  description: Saiba mais sobre a investplay
+  url: 'https://investplay.com.br'
+tags:
+  - name: Dummy
+    description: |
+      APIs sem função.
+paths:
+  /dummy:
+    get:
+      tags:
+        - Dummy
+      summary: Dados aleatórios
+      responses:
+        '200':
+          description: Chamada realizada com sucesso.
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/DummyData'
+        '401':
+          $ref: '#/components/responses/UnauthorizedError'
+        '5XX':
+          $ref: '#/components/responses/InternalServerError'
+      security:
+        - bearerAuth: []
+components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+  responses:
+    UnauthorizedError:
+      description: ID Token inválido
+    BadRequestError:
+      description: Não foi possível processar a solicitação
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/ResponseErrors'
+    NotFoundError:
+      description: Recurso não encontrado
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/ResponseErrors'
+    InternalServerError:
+      description: Erro interno
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/ResponseErrors'
+  schemas:
+    ResponseErrors:
+      type: object
+      properties:
+        reference:
+          type: string
+        errors:
+          type: array
+          items:
+            $ref: '#/components/schemas/ResponseError'
+    ResponseError:
+      type: object
+      properties:
+        errorCode:
+          type: string
+          enum: [INVALID_PARAMETERS, MANDATORY_FIELDS, NOT_FOUND, INTERNAL_SERVER_ERROR]
+          description: >
+            codes:
+
+            * INVALID_PARAMETERS - o valor de um ou mais parâmetros/campos são inválidos.
+
+            * MANDATORY_FIELDS - o valor de um ou mais campos obrigatórios não foram enviados.
+
+            * NOT_FOUND - recurso não encontrado.
+
+            * INTERNAL_SERVER_ERROR - erro desconhecido.
+        message:
+          type: string
+    DummyData:
+      type: object
+      properties:
+        id:
+          type: string
+          description: ID
+        description:
+          type: string
+          description: descrição aleatória

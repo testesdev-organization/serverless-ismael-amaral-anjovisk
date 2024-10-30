@@ -1,0 +1,10 @@
+{
+  "name": "lambda-layer",
+  "version": "1.0.0",
+  "description": "Dependências comuns entre as funções.",
+  "main": "index.js",
+  "author": "anjovisk",
+  "license": "ISC",
+  "dependencies": {
+  }
+}

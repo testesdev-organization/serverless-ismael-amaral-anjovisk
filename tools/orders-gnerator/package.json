@@ -1,0 +1,14 @@
+{
+  "name": "orders-gnerator",
+  "version": "1.0.0",
+  "description": "Gerador de massa de dados",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "anjovisk",
+  "license": "ISC",
+  "dependencies": {
+    "uuid": "^11.0.2"
+  }
+}

@@ -1,0 +1,162 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+
+Globals:
+  Function:
+    Timeout: 15
+    MemorySize: 128
+    Runtime: nodejs18.x
+
+Parameters:
+  ApplicationName:
+    Type: String
+    Description: Nome da aplicação
+    Default: "developer-test"
+  StackName:
+    Type: String
+    Description: Nome da stack (ivvy, ailos360, etc)
+  StackEnvironment:
+    Type: String
+    Description: Environment da stack (dev, staging ou prod)
+    Default: "dev"
+
+Resources:
+  #API Gateway and related resources
+  DeveloperTestV1ApiMapping:
+    Type: AWS::ApiGatewayV2::ApiMapping
+    DependsOn: DeveloperTestApiGatewayApiDomainName
+    Properties: 
+      ApiId: !Ref DeveloperTestApiGatewayApi
+      ApiMappingKey: public #Se adicionar mapping, ele deve ser incluído na url pelo cliente
+      DomainName: "{{resolve:ssm:/cloudformation/parameters/ApiGatewayDomainName}}"
+      Stage: !Ref StackEnvironment
+  DeveloperTestApiGatewayApiDomainName:
+    Type: 'AWS::ApiGatewayV2::DomainName'
+    DependsOn: DeveloperTestApiGatewayApiStage
+    Properties:
+      DomainName: "{{resolve:ssm:/cloudformation/parameters/ApiGatewayDomainName}}"
+      DomainNameConfigurations:
+        - EndpointType: REGIONAL
+          CertificateArn: "{{resolve:ssm:/cloudformation/parameters/ApiGatewayCertificateArn}}"
+          SecurityPolicy: TLS_1_2
+  DomainRecordSet: # Creates a record set in the hosted zone for the domain
+    Type: AWS::Route53::RecordSet
+    Properties:
+      Name: "{{resolve:ssm:/cloudformation/parameters/ApiGatewayDomainName}}"
+      HostedZoneId: "{{resolve:ssm:/cloudformation/parameters/ApiGatewayHostedZoneId}}"
+      AliasTarget: 
+        DNSName: !GetAtt DeveloperTestApiGatewayApiDomainName.RegionalDomainName
+        HostedZoneId: !GetAtt DeveloperTestApiGatewayApiDomainName.RegionalHostedZoneId
+      Type: A
+  DeveloperTestApiGatewayApi:
+    Type: AWS::Serverless::Api
+    DependsOn:
+      - APIGatewayPushToCloudWatchLogsRole
+    Properties:
+      StageName: !Ref StackEnvironment
+      Auth:
+        Authorizers:
+          CognitoAuthorizer:
+            UserPoolArn: "{{resolve:ssm:/cloudformation/parameters/WebappCognitoAuthorizerArn}}"
+      DisableExecuteApiEndpoint: True
+      Cors:
+        AllowMethods: "'POST, GET, PATCH, PUT, DELETE'"
+        AllowHeaders: "'X-Forwarded-For, Authorization, content-type'"
+        MaxAge: "'600'"
+        AllowOrigin: "'*'"
+      AccessLogSetting:
+        DestinationArn: !GetAtt DeveloperTestApiGatewayApiLogGroup.Arn
+        Format: $context.extendedRequestId $context.identity.sourceIp $context.identity.caller $context.identity.user [$context.requestTime] "$context.httpMethod $context.resourcePath $context.protocol" $context.status $context.responseLength $context.requestId
+      Tags:
+        "pfm:application:name": !Sub '${ApplicationName}-${StackName}-${StackEnvironment}'
+        "pfm:application:resource": !Sub '${ApplicationName}-${StackName}-${StackEnvironment}-DeveloperTestApiGatewayApi'
+  DeveloperTestApiGatewayApiLogGroup:
+    Type: AWS::Logs::LogGroup
+    Properties:
+      LogGroupName: !Sub '/aws/lambda/${DeveloperTestApiGatewayApi}'
+      RetentionInDays: 30
+      Tags:
+        - Key: "pfm:application:name"
+          Value: !Sub '${ApplicationName}-${StackName}-${StackEnvironment}'
+        - Key: "pfm:application:resource"
+          Value: !Sub '${ApplicationName}-${StackName}-${StackEnvironment}-DeveloperTestApiGatewayApiLogGroup'
+
+  #S3
+  AnalyticsS3Bucket:
+    Type: 'AWS::S3::Bucket'
+    Properties:
+      BucketName: !Sub '${StackName}-${StackEnvironment}-orders'
+
+  #APIs (lambda)
+  GeneralFunction128:
+    Type: AWS::Serverless::Function
+    Properties:
+      Description: |
+        [X] Processa chamadas das APIs do recurso X
+      CodeUri: lambda/dist
+      Handler: index.handleRestAPI
+      Architectures:
+        - x86_64
+      Layers:
+        - !Ref DeveloperTestLayerV1
+      Environment:
+        Variables:
+          APPLICATION_NAME: !Ref ApplicationName
+          STACK_ENVIRONMENT: !Ref StackEnvironment
+      Events:
+        GetDummyFunctionEvent128:
+          Type: Api
+          Properties:
+            RestApiId: !Ref DeveloperTestApiGatewayApi
+            Path: /v1/dummy
+            Method: get
+      Tags:
+        "pfm:application:name": !Sub '${ApplicationName}-${StackName}-${StackEnvironment}'
+        "pfm:application:resource": !Sub '${ApplicationName}-${StackName}-${StackEnvironment}-GeneralFunction128'
+  GeneralFunction128LogGroup:
+    Type: AWS::Logs::LogGroup
+    Properties:
+      LogGroupName: !Sub '/aws/lambda/${GeneralFunction128}'
+      RetentionInDays: 1
+      Tags:
+        - Key: "pfm:application:name"
+          Value: !Sub '${ApplicationName}-${StackName}-${StackEnvironment}'
+        - Key: "pfm:application:resource"
+          Value: !Sub '${ApplicationName}-${StackName}-${StackEnvironment}-GeneralFunction128LogGroup'
+
+  #Lambda Layer
+  DeveloperTestLayerV1:
+    Type: AWS::Serverless::LayerVersion
+    Properties:
+      LayerName: !Sub '${StackName}-${ApplicationName}-${StackEnvironment}'
+      Description: Dependências básicas para o DeveloperTest
+      ContentUri: lambda/layer/
+      CompatibleRuntimes:
+        - nodejs18.x
+      LicenseInfo: 'MIT'
+  
+  #Roles and Policies
+  APIGatewayPushToCloudWatchLogsRole:
+    Type: 'AWS::IAM::Role'
+    Properties:
+      AssumeRolePolicyDocument:
+        Version: 2012-10-17
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service:
+                - apigateway.amazonaws.com
+            Action: 'sts:AssumeRole'
+      Path: /
+      ManagedPolicyArns:
+        - >-
+          arn:aws:iam::aws:policy/service-role/AmazonAPIGatewayPushToCloudWatchLogs
+      Tags:
+        - Key: "pfm:application:name"
+          Value: !Sub '${ApplicationName}-${StackName}-${StackEnvironment}'
+        - Key: "pfm:application:resource"
+          Value: !Sub '${ApplicationName}-${StackName}-${StackEnvironment}-APIGatewayPushToCloudWatchLogsRole'
+  ApiGatewayAccount:
+    Type: 'AWS::ApiGateway::Account'
+    Properties:
+      CloudWatchRoleArn: !GetAtt APIGatewayPushToCloudWatchLogsRole.Arn

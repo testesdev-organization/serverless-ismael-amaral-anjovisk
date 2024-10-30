@@ -1,0 +1,3797 @@
+[
+  {
+    "orderId": "d058b0c7-bcfe-436e-998e-722f712e2bdf",
+    "userId": "cliente6",
+    "orderDate": "2024-04-30T08:06:52.885Z",
+    "status": "readyToShip",
+    "items": [
+      {
+        "productId": "78441256-a44c-4567-98ab-4b6d49c621e6",
+        "quantity": 2,
+        "totalAmount": 3600
+      },
+      {
+        "productId": "a840dc95-9b49-476e-b844-90cdfc38fd48",
+        "quantity": 4,
+        "totalAmount": 942
+      },
+      {
+        "productId": "98b4g619-33bc-4579-a855-08a9e2d33469",
+        "quantity": 2,
+        "totalAmount": 2999.98
+      }
+    ],
+    "totalAmount": 7541.98
+  },
+  {
+    "orderId": "72ab33eb-42a7-4e8c-8f15-d1fe232c79fd",
+    "userId": "cliente2",
+    "orderDate": "2024-09-14T16:41:02.779Z",
+    "status": "readyToShip",
+    "items": [
+      {
+        "productId": "98b4g619-33bc-4579-a855-08a9e2d33469",
+        "quantity": 3,
+        "totalAmount": 4499.97
+      },
+      {
+        "productId": "ad97f35f-a44c-4569-a84b-08a9e2d33469",
+        "quantity": 5,
+        "totalAmount": 125
+      },
+      {
+        "productId": "a840dc95-9b49-476e-b844-90cdfc38fd48",
+        "quantity": 1,
+        "totalAmount": 235.5
+      }
+    ],
+    "totalAmount": 4860.47
+  },
+  {
+    "orderId": "869a346f-f404-4de3-a598-d690c7a802cd",
+    "userId": "cliente1",
+    "orderDate": "2024-05-05T10:50:41.948Z",
+    "status": "awaitingPayment",
+    "items": [
+      {
+        "productId": "b894e5f7-11b4-4577-a853-08a9e2d33469",
+        "quantity": 5,
+        "totalAmount": 1950
+      },
+      {
+        "productId": "a8a4f608-22b8-4578-a854-08a9e2d33469",
+        "quantity": 1,
+        "totalAmount": 689.9
+      }
+    ],
+    "totalAmount": 2639.9
+  },
+  {
+    "orderId": "7a91ded8-654e-43e6-ad98-d407065e5d64",
+    "userId": "cliente2",
+    "orderDate": "2024-03-15T04:36:17.343Z",
+    "status": "shipped",
+    "items": [
+      {
+        "productId": "a840dc95-9b49-476e-b844-90cdfc38fd48",
+        "quantity": 1,
+        "totalAmount": 235.5
+      },
+      {
+        "productId": "d84578ac-2156-4572-a84e-08a9e2d33469",
+        "quantity": 2,
+        "totalAmount": 660
+      },
+      {
+        "productId": "f854a5b3-d382-4573-a84f-08a9e2d33469",
+        "quantity": 1,
+        "totalAmount": 599
+      }
+    ],
+    "totalAmount": 1494.5
+  },
+  {
+    "orderId": "3c86010b-63c1-4be1-9a2d-eb0ecd30addf",
+    "userId": "cliente1",
+    "orderDate": "2024-09-14T05:07:53.453Z",
+    "status": "paymentApproved",
+    "items": [
+      {
+        "productId": "78441256-a44c-4567-98ab-4b6d49c621e6",
+        "quantity": 5,
+        "totalAmount": 9000
+      }
+    ],
+    "totalAmount": 9000
+  },
+  {
+    "orderId": "8c870e22-7700-40a6-9004-9d4d2f9e9e7a",
+    "userId": "cliente5",
+    "orderDate": "2024-06-19T11:34:27.827Z",
+    "status": "shipped",
+    "items": [
+      {
+        "productId": "78441256-a44c-4567-98ab-4b6d49c621e6",
+        "quantity": 5,
+        "totalAmount": 9000
+      },
+      {
+        "productId": "9b1deb4d-3b7d-4bad-9efd-d6495fa87d1b",
+        "quantity": 1,
+        "totalAmount": 79.6
+      }
+    ],
+    "totalAmount": 9079.6
+  },
+  {
+    "orderId": "804e02f5-1eed-47ff-86d8-b87fc39dd0dc",
+    "userId": "candidato-user-id",
+    "orderDate": "2024-04-22T21:37:24.772Z",
+    "status": "returned",
+    "items": [
+      {
+        "productId": "02984876-60f0-4e9c-a053-eb54e1ac86ba",
+        "quantity": 4,
+        "totalAmount": 223.6
+      },
+      {
+        "productId": "c884d5e6-00ba-4576-a852-08a9e2d33469",
+        "quantity": 1,
+        "totalAmount": 134.9
+      }
+    ],
+    "totalAmount": 358.5
+  },
+  {
+    "orderId": "57ae494a-2476-499b-8682-d818c3871595",
+    "userId": "candidato-user-id",
+    "orderDate": "2024-07-03T04:16:06.887Z",
+    "status": "readyToShip",
+    "items": [
+      {
+        "productId": "cb97fac1-2490-4566-b454-93a0b5c21fab",
+        "quantity": 5,
+        "totalAmount": 750
+      }
+    ],
+    "totalAmount": 750
+  },
+  {
+    "orderId": "6421ae7b-f21f-4090-b983-8fe0c0193f6c",
+    "userId": "cliente5",
+    "orderDate": "2024-09-20T05:17:39.030Z",
+    "status": "delivered",
+    "items": [
+      {
+        "productId": "ad97f35f-a44c-4569-a84b-08a9e2d33469",
+        "quantity": 2,
+        "totalAmount": 50
+      },
+      {
+        "productId": "88c4h62a-44be-457a-a856-08a9e2d33469",
+        "quantity": 2,
+        "totalAmount": 742.3
+      }
+    ],
+    "totalAmount": 792.3
+  },
+  {
+    "orderId": "50c161f8-1762-4ebd-b1cd-81d3ba830724",
+    "userId": "cliente6",
+    "orderDate": "2024-05-07T18:36:25.932Z",
+    "status": "inTransit",
+    "items": [
+      {
+        "productId": "ad97f35f-a44c-4569-a84b-08a9e2d33469",
+        "quantity": 2,
+        "totalAmount": 50
+      },
+      {
+        "productId": "c93b9226-6136-4570-a84c-04a9e2d33469",
+        "quantity": 4,
+        "totalAmount": 3002
+      }
+    ],
+    "totalAmount": 3052
+  },
+  {
+    "orderId": "668cf593-2829-471d-b28f-31193305d07d",
+    "userId": "candidato-user-id",
+    "orderDate": "2024-06-06T16:49:36.466Z",
+    "status": "inProduction",
+    "items": [
+      {
+        "productId": "d874c5d5-f1aa-4575-a851-08a9e2d33469",
+        "quantity": 1,
+        "totalAmount": 281.25
+      },
+      {
+        "productId": "c884d5e6-00ba-4576-a852-08a9e2d33469",
+        "quantity": 5,
+        "totalAmount": 674.5
+      }
+    ],
+    "totalAmount": 955.75
+  },
+  {
+    "orderId": "b6905084-acb3-461d-a343-248240dead43",
+    "userId": "candidato-user-id",
+    "orderDate": "2024-05-05T09:17:42.975Z",
+    "status": "invoiced",
+    "items": [
+      {
+        "productId": "e864b5c4-e2b6-4574-a850-08a9e2d33469",
+        "quantity": 3,
+        "totalAmount": 1110.9
+      },
+      {
+        "productId": "a840dc95-9b49-476e-b844-90cdfc38fd48",
+        "quantity": 3,
+        "totalAmount": 706.5
+      }
+    ],
+    "totalAmount": 1817.4
+  },
+  {
+    "orderId": "bf47d99a-9f84-4144-aaab-434b2d581ef6",
+    "userId": "cliente5",
+    "orderDate": "2024-04-26T02:11:49.592Z",
+    "status": "canceled",
+    "items": [
+      {
+        "productId": "c884d5e6-00ba-4576-a852-08a9e2d33469",
+        "quantity": 1,
+        "totalAmount": 134.9
+      },
+      {
+        "productId": "e864b5c4-e2b6-4574-a850-08a9e2d33469",
+        "quantity": 1,
+        "totalAmount": 370.3
+      }
+    ],
+    "totalAmount": 505.20000000000005
+  },
+  {
+    "orderId": "947baddf-ff2d-4ef8-a0d8-019c7c9e85bd",
+    "userId": "cliente4",
+    "orderDate": "2024-04-25T17:01:48.231Z",
+    "status": "inProduction",
+    "items": [
+      {
+        "productId": "e4994b44-9684-4568-ab48-04d6e0d55e0e",
+        "quantity": 1,
+        "totalAmount": 350
+      }
+    ],
+    "totalAmount": 350
+  },
+  {
+    "orderId": "d50d8257-6766-4b70-9655-8e9485c8c83d",
+    "userId": "cliente6",
+    "orderDate": "2024-07-26T17:33:40.290Z",
+    "status": "inDispute",
+    "items": [
+      {
+        "productId": "d874c5d5-f1aa-4575-a851-08a9e2d33469",
+        "quantity": 1,
+        "totalAmount": 281.25
+      }
+    ],
+    "totalAmount": 281.25
+  },
+  {
+    "orderId": "0d4fb249-1fdc-405a-8256-cf945b17d89e",
+    "userId": "cliente4",
+    "orderDate": "2024-03-12T13:06:35.131Z",
+    "status": "inTransit",
+    "items": [
+      {
+        "productId": "f854a5b3-d382-4573-a84f-08a9e2d33469",
+        "quantity": 4,
+        "totalAmount": 2396
+      },
+      {
+        "productId": "a8763fdc-b9ad-4571-a84d-08a9e2d33469",
+        "quantity": 5,
+        "totalAmount": 2168.75
+      },
+      {
+        "productId": "a840dc95-9b49-476e-b844-90cdfc38fd48",
+        "quantity": 2,
+        "totalAmount": 471
+      }
+    ],
+    "totalAmount": 5035.75
+  },
+  {
+    "orderId": "2b755e59-92e8-4a97-9452-6aa507f6cfd4",
+    "userId": "cliente2",
+    "orderDate": "2024-06-23T21:20:25.541Z",
+    "status": "canceled",
+    "items": [
+      {
+        "productId": "9b1deb4d-3b7d-4bad-9efd-d6495fa87d1b",
+        "quantity": 5,
+        "totalAmount": 398
+      },
+      {
+        "productId": "88c4h62a-44be-457a-a856-08a9e2d33469",
+        "quantity": 2,
+        "totalAmount": 742.3
+      }
+    ],
+    "totalAmount": 1140.3
+  },
+  {
+    "orderId": "f1390351-6347-4bcd-8f05-0a0caa8fa0e2",
+    "userId": "cliente3",
+    "orderDate": "2024-01-25T08:36:19.856Z",
+    "status": "awaitingPickup",
+    "items": [
+      {
+        "productId": "e4994b44-9684-4568-ab48-04d6e0d55e0e",
+        "quantity": 1,
+        "totalAmount": 350
+      },
+      {
+        "productId": "98b4g619-33bc-4579-a855-08a9e2d33469",
+        "quantity": 3,
+        "totalAmount": 4499.97
+      }
+    ],
+    "totalAmount": 4849.97
+  },
+  {
+    "orderId": "bb0bff80-a959-4ce4-93a9-1759957a1905",
+    "userId": "cliente2",
+    "orderDate": "2024-05-26T07:56:43.624Z",
+    "status": "paymentApproved",
+    "items": [
+      {
+        "productId": "9b1deb4d-3b7d-4bad-9efd-d6495fa87d1b",
+        "quantity": 1,
+        "totalAmount": 79.6
+      }
+    ],
+    "totalAmount": 79.6
+  },
+  {
+    "orderId": "8581b50d-85ac-44d6-8fe7-bfa16076605a",
+    "userId": "cliente4",
+    "orderDate": "2024-08-01T23:14:49.464Z",
+    "status": "shipped",
+    "items": [
+      {
+        "productId": "02984876-60f0-4e9c-a053-eb54e1ac86ba",
+        "quantity": 3,
+        "totalAmount": 167.7
+      },
+      {
+        "productId": "e864b5c4-e2b6-4574-a850-08a9e2d33469",
+        "quantity": 2,
+        "totalAmount": 740.6
+      },
+      {
+        "productId": "f854a5b3-d382-4573-a84f-08a9e2d33469",
+        "quantity": 5,
+        "totalAmount": 2995
+      }
+    ],
+    "totalAmount": 3903.3
+  },
+  {
+    "orderId": "40cce005-7959-4c53-bb8f-b46d1f55e5a3",
+    "userId": "cliente4",
+    "orderDate": "2024-02-19T18:16:54.756Z",
+    "status": "shipped",
+    "items": [
+      {
+        "productId": "a840dc95-9b49-476e-b844-90cdfc38fd48",
+        "quantity": 1,
+        "totalAmount": 235.5
+      },
+      {
+        "productId": "c884d5e6-00ba-4576-a852-08a9e2d33469",
+        "quantity": 1,
+        "totalAmount": 134.9
+      },
+      {
+        "productId": "88c4h62a-44be-457a-a856-08a9e2d33469",
+        "quantity": 3,
+        "totalAmount": 1113.4499999999998
+      }
+    ],
+    "totalAmount": 1483.85
+  },
+  {
+    "orderId": "bb10920f-26b4-48ba-bfb8-ac9470ade7f0",
+    "userId": "cliente2",
+    "orderDate": "2024-05-14T00:12:27.426Z",
+    "status": "paymentApproved",
+    "items": [
+      {
+        "productId": "88c4h62a-44be-457a-a856-08a9e2d33469",
+        "quantity": 4,
+        "totalAmount": 1484.6
+      }
+    ],
+    "totalAmount": 1484.6
+  },
+  {
+    "orderId": "badfa4be-1d50-4f67-8617-9253913eafae",
+    "userId": "cliente4",
+    "orderDate": "2024-01-23T19:15:45.366Z",
+    "status": "readyToShip",
+    "items": [
+      {
+        "productId": "d84578ac-2156-4572-a84e-08a9e2d33469",
+        "quantity": 1,
+        "totalAmount": 330
+      }
+    ],
+    "totalAmount": 330
+  },
+  {
+    "orderId": "ad0e60d3-0168-4192-9196-57f2e89c7c15",
+    "userId": "cliente6",
+    "orderDate": "2024-01-27T01:15:33.692Z",
+    "status": "paymentApproved",
+    "items": [
+      {
+        "productId": "cb97fac1-2490-4566-b454-93a0b5c21fab",
+        "quantity": 3,
+        "totalAmount": 450
+      },
+      {
+        "productId": "ad97f35f-a44c-4569-a84b-08a9e2d33469",
+        "quantity": 3,
+        "totalAmount": 75
+      },
+      {
+        "productId": "f854a5b3-d382-4573-a84f-08a9e2d33469",
+        "quantity": 3,
+        "totalAmount": 1797
+      }
+    ],
+    "totalAmount": 2322
+  },
+  {
+    "orderId": "2d07f277-6ef3-4d64-8445-23fe8fcc3676",
+    "userId": "cliente1",
+    "orderDate": "2024-08-24T09:55:40.199Z",
+    "status": "inPreparation",
+    "items": [
+      {
+        "productId": "d84578ac-2156-4572-a84e-08a9e2d33469",
+        "quantity": 2,
+        "totalAmount": 660
+      }
+    ],
+    "totalAmount": 660
+  },
+  {
+    "orderId": "759871b4-fac2-4450-b1b8-66eb931a8c3c",
+    "userId": "cliente3",
+    "orderDate": "2024-01-11T05:15:11.367Z",
+    "status": "awaitingPickup",
+    "items": [
+      {
+        "productId": "d874c5d5-f1aa-4575-a851-08a9e2d33469",
+        "quantity": 1,
+        "totalAmount": 281.25
+      }
+    ],
+    "totalAmount": 281.25
+  },
+  {
+    "orderId": "16640289-b920-4c7b-b82d-6b3e7719b457",
+    "userId": "cliente3",
+    "orderDate": "2024-04-17T04:56:55.341Z",
+    "status": "inTransit",
+    "items": [
+      {
+        "productId": "cb97fac1-2490-4566-b454-93a0b5c21fab",
+        "quantity": 3,
+        "totalAmount": 450
+      },
+      {
+        "productId": "3fa85f64-5717-4562-b3fc-2c963f611b60",
+        "quantity": 2,
+        "totalAmount": 119.98
+      }
+    ],
+    "totalAmount": 569.98
+  },
+  {
+    "orderId": "06570378-50ef-4aa7-a978-a89d7b5c03d2",
+    "userId": "cliente1",
+    "orderDate": "2024-06-04T08:07:55.362Z",
+    "status": "delivered",
+    "items": [
+      {
+        "productId": "f854a5b3-d382-4573-a84f-08a9e2d33469",
+        "quantity": 2,
+        "totalAmount": 1198
+      },
+      {
+        "productId": "02984876-60f0-4e9c-a053-eb54e1ac86ba",
+        "quantity": 4,
+        "totalAmount": 223.6
+      }
+    ],
+    "totalAmount": 1421.6
+  },
+  {
+    "orderId": "c8ada4ec-a9eb-4f3b-9301-aefab7728bd7",
+    "userId": "cliente2",
+    "orderDate": "2024-05-16T10:57:49.229Z",
+    "status": "readyToShip",
+    "items": [
+      {
+        "productId": "f854a5b3-d382-4573-a84f-08a9e2d33469",
+        "quantity": 4,
+        "totalAmount": 2396
+      }
+    ],
+    "totalAmount": 2396
+  },
+  {
+    "orderId": "b87cfd39-0ea8-4fe2-a351-79948e6a6bfc",
+    "userId": "cliente4",
+    "orderDate": "2024-07-03T09:58:10.265Z",
+    "status": "inDispute",
+    "items": [
+      {
+        "productId": "c93b9226-6136-4570-a84c-04a9e2d33469",
+        "quantity": 5,
+        "totalAmount": 3752.5
+      },
+      {
+        "productId": "d874c5d5-f1aa-4575-a851-08a9e2d33469",
+        "quantity": 2,
+        "totalAmount": 562.5
+      }
+    ],
+    "totalAmount": 4315
+  },
+  {
+    "orderId": "f0de1d15-495e-4787-a690-d2a6e46331a9",
+    "userId": "cliente4",
+    "orderDate": "2024-01-09T20:08:15.121Z",
+    "status": "inTransit",
+    "items": [
+      {
+        "productId": "f854a5b3-d382-4573-a84f-08a9e2d33469",
+        "quantity": 4,
+        "totalAmount": 2396
+      },
+      {
+        "productId": "ad97f35f-a44c-4569-a84b-08a9e2d33469",
+        "quantity": 5,
+        "totalAmount": 125
+      }
+    ],
+    "totalAmount": 2521
+  },
+  {
+    "orderId": "f0949b2f-31ad-4e2f-8e26-2d3276a40dc6",
+    "userId": "cliente5",
+    "orderDate": "2024-03-24T13:39:04.725Z",
+    "status": "inProduction",
+    "items": [
+      {
+        "productId": "88c4h62a-44be-457a-a856-08a9e2d33469",
+        "quantity": 2,
+        "totalAmount": 742.3
+      },
+      {
+        "productId": "98b4g619-33bc-4579-a855-08a9e2d33469",
+        "quantity": 4,
+        "totalAmount": 5999.96
+      }
+    ],
+    "totalAmount": 6742.26
+  },
+  {
+    "orderId": "81ba4ca7-1b5b-4b4c-87f9-2034971d4d14",
+    "userId": "cliente1",
+    "orderDate": "2024-08-14T23:04:18.527Z",
+    "status": "inDispute",
+    "items": [
+      {
+        "productId": "c93b9226-6136-4570-a84c-04a9e2d33469",
+        "quantity": 1,
+        "totalAmount": 750.5
+      },
+      {
+        "productId": "a840dc95-9b49-476e-b844-90cdfc38fd48",
+        "quantity": 4,
+        "totalAmount": 942
+      },
+      {
+        "productId": "f854a5b3-d382-4573-a84f-08a9e2d33469",
+        "quantity": 2,
+        "totalAmount": 1198
+      }
+    ],
+    "totalAmount": 2890.5
+  },
+  {
+    "orderId": "83c7577e-216f-4138-9343-a57c123a612e",
+    "userId": "candidato-user-id",
+    "orderDate": "2024-01-15T00:44:05.085Z",
+    "status": "inDispute",
+    "items": [
+      {
+        "productId": "d84578ac-2156-4572-a84e-08a9e2d33469",
+        "quantity": 5,
+        "totalAmount": 1650
+      },
+      {
+        "productId": "a8763fdc-b9ad-4571-a84d-08a9e2d33469",
+        "quantity": 5,
+        "totalAmount": 2168.75
+      }
+    ],
+    "totalAmount": 3818.75
+  },
+  {
+    "orderId": "9b1820c0-4b57-4cf9-90bf-8d63b048edab",
+    "userId": "cliente4",
+    "orderDate": "2024-06-17T09:36:17.809Z",
+    "status": "inDispute",
+    "items": [
+      {
+        "productId": "a8a4f608-22b8-4578-a854-08a9e2d33469",
+        "quantity": 2,
+        "totalAmount": 1379.8
+      },
+      {
+        "productId": "78441256-a44c-4567-98ab-4b6d49c621e6",
+        "quantity": 4,
+        "totalAmount": 7200
+      }
+    ],
+    "totalAmount": 8579.8
+  },
+  {
+    "orderId": "2ad8c837-b742-4766-824b-812a2515e457",
+    "userId": "cliente2",
+    "orderDate": "2024-02-06T03:29:06.292Z",
+    "status": "paymentApproved",
+    "items": [
+      {
+        "productId": "02984876-60f0-4e9c-a053-eb54e1ac86ba",
+        "quantity": 5,
+        "totalAmount": 279.5
+      },
+      {
+        "productId": "9b1deb4d-3b7d-4bad-9efd-d6495fa87d1b",
+        "quantity": 2,
+        "totalAmount": 159.2
+      }
+    ],
+    "totalAmount": 438.7
+  },
+  {
+    "orderId": "79ab0b6e-a74d-4573-a5ef-2f508e3b47d9",
+    "userId": "cliente1",
+    "orderDate": "2024-07-12T22:11:32.884Z",
+    "status": "canceled",
+    "items": [
+      {
+        "productId": "78441256-a44c-4567-98ab-4b6d49c621e6",
+        "quantity": 1,
+        "totalAmount": 1800
+      },
+      {
+        "productId": "3fa85f64-5717-4562-b3fc-2c963f611b60",
+        "quantity": 4,
+        "totalAmount": 239.96
+      }
+    ],
+    "totalAmount": 2039.96
+  },
+  {
+    "orderId": "7b1f2572-904f-40a1-9d13-3d7c0400c0ef",
+    "userId": "cliente5",
+    "orderDate": "2024-07-05T01:50:53.125Z",
+    "status": "inProduction",
+    "items": [
+      {
+        "productId": "d84578ac-2156-4572-a84e-08a9e2d33469",
+        "quantity": 2,
+        "totalAmount": 660
+      },
+      {
+        "productId": "98b4g619-33bc-4579-a855-08a9e2d33469",
+        "quantity": 3,
+        "totalAmount": 4499.97
+      }
+    ],
+    "totalAmount": 5159.97
+  },
+  {
+    "orderId": "794f41d3-5f94-4592-8255-fa705bdaa8ce",
+    "userId": "cliente4",
+    "orderDate": "2024-03-07T03:26:14.019Z",
+    "status": "awaitingPickup",
+    "items": [
+      {
+        "productId": "d874c5d5-f1aa-4575-a851-08a9e2d33469",
+        "quantity": 3,
+        "totalAmount": 843.75
+      }
+    ],
+    "totalAmount": 843.75
+  },
+  {
+    "orderId": "ef2680f7-7e51-406f-9e7c-e52a65d752e4",
+    "userId": "cliente6",
+    "orderDate": "2024-06-14T04:45:45.528Z",
+    "status": "awaitingPayment",
+    "items": [
+      {
+        "productId": "98b4g619-33bc-4579-a855-08a9e2d33469",
+        "quantity": 4,
+        "totalAmount": 5999.96
+      },
+      {
+        "productId": "9b1deb4d-3b7d-4bad-9efd-d6495fa87d1b",
+        "quantity": 1,
+        "totalAmount": 79.6
+      },
+      {
+        "productId": "d84578ac-2156-4572-a84e-08a9e2d33469",
+        "quantity": 5,
+        "totalAmount": 1650
+      }
+    ],
+    "totalAmount": 7729.56
+  },
+  {
+    "orderId": "60b8d08a-1fec-4365-9b2d-6ae47fc157b3",
+    "userId": "cliente4",
+    "orderDate": "2024-03-16T17:43:08.545Z",
+    "status": "delivered",
+    "items": [
+      {
+        "productId": "88c4h62a-44be-457a-a856-08a9e2d33469",
+        "quantity": 2,
+        "totalAmount": 742.3
+      }
+    ],
+    "totalAmount": 742.3
+  },
+  {
+    "orderId": "01d63e52-2e2c-4743-bb99-fb4618be29ef",
+    "userId": "cliente4",
+    "orderDate": "2024-07-01T17:05:11.358Z",
+    "status": "readyToShip",
+    "items": [
+      {
+        "productId": "e4994b44-9684-4568-ab48-04d6e0d55e0e",
+        "quantity": 3,
+        "totalAmount": 1050
+      }
+    ],
+    "totalAmount": 1050
+  },
+  {
+    "orderId": "70c06cc9-c2d2-4200-bd9f-e8c608be3990",
+    "userId": "cliente6",
+    "orderDate": "2024-08-30T12:00:04.777Z",
+    "status": "returned",
+    "items": [
+      {
+        "productId": "e4994b44-9684-4568-ab48-04d6e0d55e0e",
+        "quantity": 1,
+        "totalAmount": 350
+      },
+      {
+        "productId": "a840dc95-9b49-476e-b844-90cdfc38fd48",
+        "quantity": 4,
+        "totalAmount": 942
+      },
+      {
+        "productId": "c884d5e6-00ba-4576-a852-08a9e2d33469",
+        "quantity": 4,
+        "totalAmount": 539.6
+      }
+    ],
+    "totalAmount": 1831.6
+  },
+  {
+    "orderId": "2fb1e07b-ed7b-4506-b75b-f15ade581b20",
+    "userId": "cliente4",
+    "orderDate": "2024-08-16T18:04:20.238Z",
+    "status": "canceled",
+    "items": [
+      {
+        "productId": "3fa85f64-5717-4562-b3fc-2c963f611b60",
+        "quantity": 4,
+        "totalAmount": 239.96
+      }
+    ],
+    "totalAmount": 239.96
+  },
+  {
+    "orderId": "1654b83c-4361-46bd-b85d-e28ad7267c25",
+    "userId": "candidato-user-id",
+    "orderDate": "2024-10-05T21:05:16.606Z",
+    "status": "readyToShip",
+    "items": [
+      {
+        "productId": "f854a5b3-d382-4573-a84f-08a9e2d33469",
+        "quantity": 4,
+        "totalAmount": 2396
+      },
+      {
+        "productId": "78441256-a44c-4567-98ab-4b6d49c621e6",
+        "quantity": 1,
+        "totalAmount": 1800
+      }
+    ],
+    "totalAmount": 4196
+  },
+  {
+    "orderId": "77ac4ff4-ad71-43d9-9846-f0c611a64a15",
+    "userId": "cliente2",
+    "orderDate": "2024-03-19T13:45:47.210Z",
+    "status": "awaitingPayment",
+    "items": [
+      {
+        "productId": "78441256-a44c-4567-98ab-4b6d49c621e6",
+        "quantity": 1,
+        "totalAmount": 1800
+      },
+      {
+        "productId": "e4994b44-9684-4568-ab48-04d6e0d55e0e",
+        "quantity": 5,
+        "totalAmount": 1750
+      }
+    ],
+    "totalAmount": 3550
+  },
+  {
+    "orderId": "8e1a1fe2-1c13-4f1b-8a58-5ca4c46d8855",
+    "userId": "cliente3",
+    "orderDate": "2024-09-21T21:24:31.770Z",
+    "status": "readyToShip",
+    "items": [
+      {
+        "productId": "a840dc95-9b49-476e-b844-90cdfc38fd48",
+        "quantity": 4,
+        "totalAmount": 942
+      }
+    ],
+    "totalAmount": 942
+  },
+  {
+    "orderId": "18bf44ee-6594-48c5-b16a-af7be7f8ff3c",
+    "userId": "cliente4",
+    "orderDate": "2024-04-01T05:25:08.663Z",
+    "status": "paymentApproved",
+    "items": [
+      {
+        "productId": "ad97f35f-a44c-4569-a84b-08a9e2d33469",
+        "quantity": 1,
+        "totalAmount": 25
+      },
+      {
+        "productId": "d874c5d5-f1aa-4575-a851-08a9e2d33469",
+        "quantity": 1,
+        "totalAmount": 281.25
+      },
+      {
+        "productId": "d84578ac-2156-4572-a84e-08a9e2d33469",
+        "quantity": 3,
+        "totalAmount": 990
+      }
+    ],
+    "totalAmount": 1296.25
+  },
+  {
+    "orderId": "f0faf487-963b-4ba6-960c-b2209a64dc04",
+    "userId": "cliente3",
+    "orderDate": "2024-05-07T15:33:21.544Z",
+    "status": "readyToShip",
+    "items": [
+      {
+        "productId": "c884d5e6-00ba-4576-a852-08a9e2d33469",
+        "quantity": 5,
+        "totalAmount": 674.5
+      },
+      {
+        "productId": "a840dc95-9b49-476e-b844-90cdfc38fd48",
+        "quantity": 1,
+        "totalAmount": 235.5
+      },
+      {
+        "productId": "78441256-a44c-4567-98ab-4b6d49c621e6",
+        "quantity": 4,
+        "totalAmount": 7200
+      }
+    ],
+    "totalAmount": 8110
+  },
+  {
+    "orderId": "2d5415a6-bd5f-4299-891a-33f3c0e79b60",
+    "userId": "cliente1",
+    "orderDate": "2024-02-23T02:20:58.166Z",
+    "status": "awaitingPayment",
+    "items": [
+      {
+        "productId": "f854a5b3-d382-4573-a84f-08a9e2d33469",
+        "quantity": 1,
+        "totalAmount": 599
+      }
+    ],
+    "totalAmount": 599
+  },
+  {
+    "orderId": "9ddd570d-90d6-43ee-bee9-26ac70e7106e",
+    "userId": "candidato-user-id",
+    "orderDate": "2024-09-26T05:01:38.833Z",
+    "status": "awaitingPickup",
+    "items": [
+      {
+        "productId": "a8a4f608-22b8-4578-a854-08a9e2d33469",
+        "quantity": 2,
+        "totalAmount": 1379.8
+      }
+    ],
+    "totalAmount": 1379.8
+  },
+  {
+    "orderId": "ced70f3b-e285-4a52-b2d2-11dd92f1037b",
+    "userId": "cliente3",
+    "orderDate": "2024-10-07T04:16:13.087Z",
+    "status": "inProduction",
+    "items": [
+      {
+        "productId": "b894e5f7-11b4-4577-a853-08a9e2d33469",
+        "quantity": 3,
+        "totalAmount": 1170
+      },
+      {
+        "productId": "02984876-60f0-4e9c-a053-eb54e1ac86ba",
+        "quantity": 3,
+        "totalAmount": 167.7
+      }
+    ],
+    "totalAmount": 1337.7
+  },
+  {
+    "orderId": "f57bb105-028a-45c3-a045-82f77db2bce1",
+    "userId": "cliente3",
+    "orderDate": "2024-09-01T04:38:05.761Z",
+    "status": "inDispute",
+    "items": [
+      {
+        "productId": "c93b9226-6136-4570-a84c-04a9e2d33469",
+        "quantity": 4,
+        "totalAmount": 3002
+      },
+      {
+        "productId": "02984876-60f0-4e9c-a053-eb54e1ac86ba",
+        "quantity": 4,
+        "totalAmount": 223.6
+      },
+      {
+        "productId": "d874c5d5-f1aa-4575-a851-08a9e2d33469",
+        "quantity": 3,
+        "totalAmount": 843.75
+      }
+    ],
+    "totalAmount": 4069.35
+  },
+  {
+    "orderId": "be110352-edf9-44d4-aaef-b92d9d68f3a3",
+    "userId": "cliente5",
+    "orderDate": "2024-05-15T12:52:40.999Z",
+    "status": "inProduction",
+    "items": [
+      {
+        "productId": "02984876-60f0-4e9c-a053-eb54e1ac86ba",
+        "quantity": 2,
+        "totalAmount": 111.8
+      },
+      {
+        "productId": "d874c5d5-f1aa-4575-a851-08a9e2d33469",
+        "quantity": 1,
+        "totalAmount": 281.25
+      },
+      {
+        "productId": "a840dc95-9b49-476e-b844-90cdfc38fd48",
+        "quantity": 2,
+        "totalAmount": 471
+      }
+    ],
+    "totalAmount": 864.05
+  },
+  {
+    "orderId": "34e0462a-5566-412c-8d32-48cc1d7dd604",
+    "userId": "cliente6",
+    "orderDate": "2024-06-24T02:56:45.264Z",
+    "status": "inDispute",
+    "items": [
+      {
+        "productId": "02984876-60f0-4e9c-a053-eb54e1ac86ba",
+        "quantity": 2,
+        "totalAmount": 111.8
+      },
+      {
+        "productId": "c93b9226-6136-4570-a84c-04a9e2d33469",
+        "quantity": 2,
+        "totalAmount": 1501
+      }
+    ],
+    "totalAmount": 1612.8
+  },
+  {
+    "orderId": "fd1f40d4-527f-4001-971d-e781d85e1350",
+    "userId": "cliente3",
+    "orderDate": "2024-03-02T10:02:45.628Z",
+    "status": "returned",
+    "items": [
+      {
+        "productId": "f854a5b3-d382-4573-a84f-08a9e2d33469",
+        "quantity": 1,
+        "totalAmount": 599
+      },
+      {
+        "productId": "02984876-60f0-4e9c-a053-eb54e1ac86ba",
+        "quantity": 5,
+        "totalAmount": 279.5
+      },
+      {
+        "productId": "d874c5d5-f1aa-4575-a851-08a9e2d33469",
+        "quantity": 5,
+        "totalAmount": 1406.25
+      }
+    ],
+    "totalAmount": 2284.75
+  },
+  {
+    "orderId": "aee30f34-80c8-4af4-811d-e4c28b82166b",
+    "userId": "cliente2",
+    "orderDate": "2024-08-17T12:21:26.590Z",
+    "status": "readyToShip",
+    "items": [
+      {
+        "productId": "02984876-60f0-4e9c-a053-eb54e1ac86ba",
+        "quantity": 3,
+        "totalAmount": 167.7
+      },
+      {
+        "productId": "d84578ac-2156-4572-a84e-08a9e2d33469",
+        "quantity": 2,
+        "totalAmount": 660
+      }
+    ],
+    "totalAmount": 827.7
+  },
+  {
+    "orderId": "d1075335-d286-4817-9093-8494e6c8f49c",
+    "userId": "cliente6",
+    "orderDate": "2024-05-08T08:51:47.802Z",
+    "status": "received",
+    "items": [
+      {
+        "productId": "88c4h62a-44be-457a-a856-08a9e2d33469",
+        "quantity": 4,
+        "totalAmount": 1484.6
+      }
+    ],
+    "totalAmount": 1484.6
+  },
+  {
+    "orderId": "f2de89ab-8f67-44a5-b4e6-533c756a7f8f",
+    "userId": "candidato-user-id",
+    "orderDate": "2024-06-13T07:42:44.071Z",
+    "status": "inProduction",
+    "items": [
+      {
+        "productId": "b894e5f7-11b4-4577-a853-08a9e2d33469",
+        "quantity": 1,
+        "totalAmount": 390
+      },
+      {
+        "productId": "e4994b44-9684-4568-ab48-04d6e0d55e0e",
+        "quantity": 3,
+        "totalAmount": 1050
+      }
+    ],
+    "totalAmount": 1440
+  },
+  {
+    "orderId": "a336a246-d13c-45d5-a0dd-6850672abf74",
+    "userId": "candidato-user-id",
+    "orderDate": "2024-09-25T09:45:54.514Z",
+    "status": "delivered",
+    "items": [
+      {
+        "productId": "88c4h62a-44be-457a-a856-08a9e2d33469",
+        "quantity": 2,
+        "totalAmount": 742.3
+      },
+      {
+        "productId": "78441256-a44c-4567-98ab-4b6d49c621e6",
+        "quantity": 3,
+        "totalAmount": 5400
+      },
+      {
+        "productId": "cb97fac1-2490-4566-b454-93a0b5c21fab",
+        "quantity": 2,
+        "totalAmount": 300
+      }
+    ],
+    "totalAmount": 6442.3
+  },
+  {
+    "orderId": "454b6725-e603-4167-9834-5038328fb740",
+    "userId": "cliente1",
+    "orderDate": "2024-03-11T16:49:56.237Z",
+    "status": "inTransit",
+    "items": [
+      {
+        "productId": "9b1deb4d-3b7d-4bad-9efd-d6495fa87d1b",
+        "quantity": 4,
+        "totalAmount": 318.4
+      },
+      {
+        "productId": "d874c5d5-f1aa-4575-a851-08a9e2d33469",
+        "quantity": 3,
+        "totalAmount": 843.75
+      },
+      {
+        "productId": "98b4g619-33bc-4579-a855-08a9e2d33469",
+        "quantity": 3,
+        "totalAmount": 4499.97
+      }
+    ],
+    "totalAmount": 5662.120000000001
+  },
+  {
+    "orderId": "aac859f8-f9bb-44f0-bae3-8bf47317c8df",
+    "userId": "cliente2",
+    "orderDate": "2024-04-15T10:10:32.200Z",
+    "status": "inDispute",
+    "items": [
+      {
+        "productId": "e864b5c4-e2b6-4574-a850-08a9e2d33469",
+        "quantity": 4,
+        "totalAmount": 1481.2
+      },
+      {
+        "productId": "d84578ac-2156-4572-a84e-08a9e2d33469",
+        "quantity": 2,
+        "totalAmount": 660
+      },
+      {
+        "productId": "b894e5f7-11b4-4577-a853-08a9e2d33469",
+        "quantity": 5,
+        "totalAmount": 1950
+      }
+    ],
+    "totalAmount": 4091.2
+  },
+  {
+    "orderId": "2ba7d5a7-199b-4614-8203-3f61323372e3",
+    "userId": "cliente6",
+    "orderDate": "2024-09-05T13:18:06.127Z",
+    "status": "inTransit",
+    "items": [
+      {
+        "productId": "c93b9226-6136-4570-a84c-04a9e2d33469",
+        "quantity": 5,
+        "totalAmount": 3752.5
+      }
+    ],
+    "totalAmount": 3752.5
+  },
+  {
+    "orderId": "52a9ca18-f8a2-4263-a11d-2c693112d89f",
+    "userId": "candidato-user-id",
+    "orderDate": "2024-06-05T01:12:38.670Z",
+    "status": "delivered",
+    "items": [
+      {
+        "productId": "d84578ac-2156-4572-a84e-08a9e2d33469",
+        "quantity": 5,
+        "totalAmount": 1650
+      }
+    ],
+    "totalAmount": 1650
+  },
+  {
+    "orderId": "3b381c58-62b1-49a5-8d59-8a14cda2f2df",
+    "userId": "cliente1",
+    "orderDate": "2024-06-16T13:23:53.877Z",
+    "status": "canceled",
+    "items": [
+      {
+        "productId": "b894e5f7-11b4-4577-a853-08a9e2d33469",
+        "quantity": 1,
+        "totalAmount": 390
+      }
+    ],
+    "totalAmount": 390
+  },
+  {
+    "orderId": "e775bf77-31ea-4bcb-b298-c25725bf6ef8",
+    "userId": "cliente5",
+    "orderDate": "2024-03-02T05:27:05.092Z",
+    "status": "readyToShip",
+    "items": [
+      {
+        "productId": "e4994b44-9684-4568-ab48-04d6e0d55e0e",
+        "quantity": 3,
+        "totalAmount": 1050
+      },
+      {
+        "productId": "cb97fac1-2490-4566-b454-93a0b5c21fab",
+        "quantity": 3,
+        "totalAmount": 450
+      },
+      {
+        "productId": "a8763fdc-b9ad-4571-a84d-08a9e2d33469",
+        "quantity": 4,
+        "totalAmount": 1735
+      }
+    ],
+    "totalAmount": 3235
+  },
+  {
+    "orderId": "cda6bf8c-ab54-4835-bea8-291f32c3b53f",
+    "userId": "cliente4",
+    "orderDate": "2024-02-19T23:23:53.772Z",
+    "status": "returned",
+    "items": [
+      {
+        "productId": "f854a5b3-d382-4573-a84f-08a9e2d33469",
+        "quantity": 4,
+        "totalAmount": 2396
+      },
+      {
+        "productId": "d84578ac-2156-4572-a84e-08a9e2d33469",
+        "quantity": 1,
+        "totalAmount": 330
+      },
+      {
+        "productId": "a8763fdc-b9ad-4571-a84d-08a9e2d33469",
+        "quantity": 2,
+        "totalAmount": 867.5
+      }
+    ],
+    "totalAmount": 3593.5
+  },
+  {
+    "orderId": "50132d42-c4a3-48ac-9499-fb7bd7ceae6b",
+    "userId": "cliente1",
+    "orderDate": "2024-03-12T15:49:08.318Z",
+    "status": "received",
+    "items": [
+      {
+        "productId": "c884d5e6-00ba-4576-a852-08a9e2d33469",
+        "quantity": 1,
+        "totalAmount": 134.9
+      },
+      {
+        "productId": "a8763fdc-b9ad-4571-a84d-08a9e2d33469",
+        "quantity": 5,
+        "totalAmount": 2168.75
+      }
+    ],
+    "totalAmount": 2303.65
+  },
+  {
+    "orderId": "2a629bdc-1cb9-4ef5-a471-2a86a77ac1d8",
+    "userId": "cliente4",
+    "orderDate": "2024-05-26T04:46:34.983Z",
+    "status": "received",
+    "items": [
+      {
+        "productId": "02984876-60f0-4e9c-a053-eb54e1ac86ba",
+        "quantity": 3,
+        "totalAmount": 167.7
+      }
+    ],
+    "totalAmount": 167.7
+  },
+  {
+    "orderId": "10737a04-a1eb-4fe7-9754-64e24c89a9ad",
+    "userId": "cliente5",
+    "orderDate": "2024-01-07T06:52:28.329Z",
+    "status": "awaitingPickup",
+    "items": [
+      {
+        "productId": "78441256-a44c-4567-98ab-4b6d49c621e6",
+        "quantity": 3,
+        "totalAmount": 5400
+      },
+      {
+        "productId": "a8a4f608-22b8-4578-a854-08a9e2d33469",
+        "quantity": 1,
+        "totalAmount": 689.9
+      }
+    ],
+    "totalAmount": 6089.9
+  },
+  {
+    "orderId": "6487c4b7-b428-4d12-9183-07f88d33a682",
+    "userId": "cliente4",
+    "orderDate": "2024-03-17T11:54:45.021Z",
+    "status": "awaitingPickup",
+    "items": [
+      {
+        "productId": "a840dc95-9b49-476e-b844-90cdfc38fd48",
+        "quantity": 1,
+        "totalAmount": 235.5
+      },
+      {
+        "productId": "e4994b44-9684-4568-ab48-04d6e0d55e0e",
+        "quantity": 4,
+        "totalAmount": 1400
+      },
+      {
+        "productId": "9b1deb4d-3b7d-4bad-9efd-d6495fa87d1b",
+        "quantity": 3,
+        "totalAmount": 238.79999999999998
+      }
+    ],
+    "totalAmount": 1874.3
+  },
+  {
+    "orderId": "7d7306f4-52c6-4ee0-91ee-8f88942e319c",
+    "userId": "cliente2",
+    "orderDate": "2024-02-23T10:55:52.272Z",
+    "status": "received",
+    "items": [
+      {
+        "productId": "d84578ac-2156-4572-a84e-08a9e2d33469",
+        "quantity": 1,
+        "totalAmount": 330
+      }
+    ],
+    "totalAmount": 330
+  },
+  {
+    "orderId": "795854d2-24d1-4f71-a974-30185391e39b",
+    "userId": "cliente2",
+    "orderDate": "2024-06-11T06:39:39.705Z",
+    "status": "readyToShip",
+    "items": [
+      {
+        "productId": "3fa85f64-5717-4562-b3fc-2c963f611b60",
+        "quantity": 3,
+        "totalAmount": 179.97
+      },
+      {
+        "productId": "e4994b44-9684-4568-ab48-04d6e0d55e0e",
+        "quantity": 5,
+        "totalAmount": 1750
+      }
+    ],
+    "totalAmount": 1929.97
+  },
+  {
+    "orderId": "16eef199-b196-474d-89cc-a1d5194b5dee",
+    "userId": "cliente6",
+    "orderDate": "2024-03-14T06:36:48.829Z",
+    "status": "invoiced",
+    "items": [
+      {
+        "productId": "c93b9226-6136-4570-a84c-04a9e2d33469",
+        "quantity": 4,
+        "totalAmount": 3002
+      },
+      {
+        "productId": "78441256-a44c-4567-98ab-4b6d49c621e6",
+        "quantity": 5,
+        "totalAmount": 9000
+      },
+      {
+        "productId": "e864b5c4-e2b6-4574-a850-08a9e2d33469",
+        "quantity": 4,
+        "totalAmount": 1481.2
+      }
+    ],
+    "totalAmount": 13483.2
+  },
+  {
+    "orderId": "0315fe20-9421-4f23-bfc8-b77347640c70",
+    "userId": "cliente6",
+    "orderDate": "2024-01-04T02:01:27.209Z",
+    "status": "readyToShip",
+    "items": [
+      {
+        "productId": "88c4h62a-44be-457a-a856-08a9e2d33469",
+        "quantity": 2,
+        "totalAmount": 742.3
+      },
+      {
+        "productId": "d84578ac-2156-4572-a84e-08a9e2d33469",
+        "quantity": 1,
+        "totalAmount": 330
+      },
+      {
+        "productId": "9b1deb4d-3b7d-4bad-9efd-d6495fa87d1b",
+        "quantity": 3,
+        "totalAmount": 238.79999999999998
+      }
+    ],
+    "totalAmount": 1311.1
+  },
+  {
+    "orderId": "ce2fe45c-b5d8-4381-808c-0b55eb27effd",
+    "userId": "cliente3",
+    "orderDate": "2024-08-09T06:51:12.208Z",
+    "status": "inPreparation",
+    "items": [
+      {
+        "productId": "b894e5f7-11b4-4577-a853-08a9e2d33469",
+        "quantity": 4,
+        "totalAmount": 1560
+      }
+    ],
+    "totalAmount": 1560
+  },
+  {
+    "orderId": "3906a7b3-fb77-4073-8f1c-28dd85d1ecfd",
+    "userId": "cliente5",
+    "orderDate": "2024-05-08T00:37:53.591Z",
+    "status": "invoiced",
+    "items": [
+      {
+        "productId": "e4994b44-9684-4568-ab48-04d6e0d55e0e",
+        "quantity": 3,
+        "totalAmount": 1050
+      },
+      {
+        "productId": "a840dc95-9b49-476e-b844-90cdfc38fd48",
+        "quantity": 2,
+        "totalAmount": 471
+      }
+    ],
+    "totalAmount": 1521
+  },
+  {
+    "orderId": "7acc33a6-5f2d-461e-b7bf-e9f29905e1f0",
+    "userId": "candidato-user-id",
+    "orderDate": "2024-05-02T01:57:57.066Z",
+    "status": "canceled",
+    "items": [
+      {
+        "productId": "a840dc95-9b49-476e-b844-90cdfc38fd48",
+        "quantity": 1,
+        "totalAmount": 235.5
+      },
+      {
+        "productId": "3fa85f64-5717-4562-b3fc-2c963f611b60",
+        "quantity": 3,
+        "totalAmount": 179.97
+      },
+      {
+        "productId": "c93b9226-6136-4570-a84c-04a9e2d33469",
+        "quantity": 1,
+        "totalAmount": 750.5
+      }
+    ],
+    "totalAmount": 1165.97
+  },
+  {
+    "orderId": "bf495998-8a4d-4a3c-853c-796073a0f5b5",
+    "userId": "cliente6",
+    "orderDate": "2024-01-21T07:45:10.205Z",
+    "status": "awaitingPayment",
+    "items": [
+      {
+        "productId": "c93b9226-6136-4570-a84c-04a9e2d33469",
+        "quantity": 5,
+        "totalAmount": 3752.5
+      }
+    ],
+    "totalAmount": 3752.5
+  },
+  {
+    "orderId": "7a24555c-f02f-4c10-ab7b-677746e76387",
+    "userId": "cliente6",
+    "orderDate": "2024-05-01T06:13:25.542Z",
+    "status": "awaitingPickup",
+    "items": [
+      {
+        "productId": "d84578ac-2156-4572-a84e-08a9e2d33469",
+        "quantity": 2,
+        "totalAmount": 660
+      },
+      {
+        "productId": "88c4h62a-44be-457a-a856-08a9e2d33469",
+        "quantity": 5,
+        "totalAmount": 1855.75
+      },
+      {
+        "productId": "e864b5c4-e2b6-4574-a850-08a9e2d33469",
+        "quantity": 5,
+        "totalAmount": 1851.5
+      }
+    ],
+    "totalAmount": 4367.25
+  },
+  {
+    "orderId": "1cf2ba8f-67e2-46d2-803e-738e0e4e65c3",
+    "userId": "cliente4",
+    "orderDate": "2024-04-16T13:51:06.846Z",
+    "status": "received",
+    "items": [
+      {
+        "productId": "a8763fdc-b9ad-4571-a84d-08a9e2d33469",
+        "quantity": 2,
+        "totalAmount": 867.5
+      },
+      {
+        "productId": "78441256-a44c-4567-98ab-4b6d49c621e6",
+        "quantity": 1,
+        "totalAmount": 1800
+      },
+      {
+        "productId": "e4994b44-9684-4568-ab48-04d6e0d55e0e",
+        "quantity": 1,
+        "totalAmount": 350
+      }
+    ],
+    "totalAmount": 3017.5
+  },
+  {
+    "orderId": "8c990fea-fdc4-4b99-bc92-2ca0bade2f69",
+    "userId": "cliente6",
+    "orderDate": "2024-06-18T06:17:15.663Z",
+    "status": "invoiced",
+    "items": [
+      {
+        "productId": "98b4g619-33bc-4579-a855-08a9e2d33469",
+        "quantity": 5,
+        "totalAmount": 7499.95
+      },
+      {
+        "productId": "3fa85f64-5717-4562-b3fc-2c963f611b60",
+        "quantity": 3,
+        "totalAmount": 179.97
+      }
+    ],
+    "totalAmount": 7679.92
+  },
+  {
+    "orderId": "f54b7835-408d-48d8-ae2c-d70b907291ba",
+    "userId": "cliente4",
+    "orderDate": "2024-09-18T03:55:31.524Z",
+    "status": "canceled",
+    "items": [
+      {
+        "productId": "88c4h62a-44be-457a-a856-08a9e2d33469",
+        "quantity": 2,
+        "totalAmount": 742.3
+      },
+      {
+        "productId": "ad97f35f-a44c-4569-a84b-08a9e2d33469",
+        "quantity": 5,
+        "totalAmount": 125
+      }
+    ],
+    "totalAmount": 867.3
+  },
+  {
+    "orderId": "10f2dc5d-43a4-407a-bf4c-f5ca149ac11f",
+    "userId": "cliente1",
+    "orderDate": "2024-09-28T16:11:29.364Z",
+    "status": "received",
+    "items": [
+      {
+        "productId": "98b4g619-33bc-4579-a855-08a9e2d33469",
+        "quantity": 1,
+        "totalAmount": 1499.99
+      }
+    ],
+    "totalAmount": 1499.99
+  },
+  {
+    "orderId": "6a3e1573-0f5c-4015-ac87-8652af8c76c9",
+    "userId": "cliente6",
+    "orderDate": "2024-08-02T11:26:52.893Z",
+    "status": "returned",
+    "items": [
+      {
+        "productId": "a8a4f608-22b8-4578-a854-08a9e2d33469",
+        "quantity": 1,
+        "totalAmount": 689.9
+      }
+    ],
+    "totalAmount": 689.9
+  },
+  {
+    "orderId": "fce03ef2-0f02-460b-9e04-bcf3875112d2",
+    "userId": "cliente2",
+    "orderDate": "2024-02-02T11:03:41.059Z",
+    "status": "inDispute",
+    "items": [
+      {
+        "productId": "a8763fdc-b9ad-4571-a84d-08a9e2d33469",
+        "quantity": 1,
+        "totalAmount": 433.75
+      },
+      {
+        "productId": "78441256-a44c-4567-98ab-4b6d49c621e6",
+        "quantity": 2,
+        "totalAmount": 3600
+      },
+      {
+        "productId": "88c4h62a-44be-457a-a856-08a9e2d33469",
+        "quantity": 2,
+        "totalAmount": 742.3
+      }
+    ],
+    "totalAmount": 4776.05
+  },
+  {
+    "orderId": "e735af34-00a2-4b42-9b7d-cdfbba4b8d73",
+    "userId": "cliente1",
+    "orderDate": "2024-07-08T19:06:33.058Z",
+    "status": "paymentApproved",
+    "items": [
+      {
+        "productId": "d874c5d5-f1aa-4575-a851-08a9e2d33469",
+        "quantity": 5,
+        "totalAmount": 1406.25
+      },
+      {
+        "productId": "b894e5f7-11b4-4577-a853-08a9e2d33469",
+        "quantity": 1,
+        "totalAmount": 390
+      },
+      {
+        "productId": "88c4h62a-44be-457a-a856-08a9e2d33469",
+        "quantity": 1,
+        "totalAmount": 371.15
+      }
+    ],
+    "totalAmount": 2167.4
+  },
+  {
+    "orderId": "a6c50962-ad9f-4a58-b2e4-28592841ab06",
+    "userId": "cliente1",
+    "orderDate": "2024-09-13T09:34:04.442Z",
+    "status": "invoiced",
+    "items": [
+      {
+        "productId": "ad97f35f-a44c-4569-a84b-08a9e2d33469",
+        "quantity": 2,
+        "totalAmount": 50
+      },
+      {
+        "productId": "f854a5b3-d382-4573-a84f-08a9e2d33469",
+        "quantity": 5,
+        "totalAmount": 2995
+      }
+    ],
+    "totalAmount": 3045
+  },
+  {
+    "orderId": "0da170d8-6f30-4ac1-9d7a-638a98e66935",
+    "userId": "cliente6",
+    "orderDate": "2024-02-01T08:05:44.595Z",
+    "status": "awaitingPayment",
+    "items": [
+      {
+        "productId": "9b1deb4d-3b7d-4bad-9efd-d6495fa87d1b",
+        "quantity": 4,
+        "totalAmount": 318.4
+      },
+      {
+        "productId": "a8763fdc-b9ad-4571-a84d-08a9e2d33469",
+        "quantity": 1,
+        "totalAmount": 433.75
+      }
+    ],
+    "totalAmount": 752.15
+  },
+  {
+    "orderId": "551f80bf-cc7d-49db-acd0-32203ecf2738",
+    "userId": "candidato-user-id",
+    "orderDate": "2024-01-26T09:11:55.493Z",
+    "status": "readyToShip",
+    "items": [
+      {
+        "productId": "c884d5e6-00ba-4576-a852-08a9e2d33469",
+        "quantity": 3,
+        "totalAmount": 404.70000000000005
+      },
+      {
+        "productId": "98b4g619-33bc-4579-a855-08a9e2d33469",
+        "quantity": 2,
+        "totalAmount": 2999.98
+      },
+      {
+        "productId": "e864b5c4-e2b6-4574-a850-08a9e2d33469",
+        "quantity": 5,
+        "totalAmount": 1851.5
+      }
+    ],
+    "totalAmount": 5256.18
+  },
+  {
+    "orderId": "1c01728e-d29c-4261-8f57-50683843f3cd",
+    "userId": "cliente1",
+    "orderDate": "2024-09-10T00:02:32.387Z",
+    "status": "inDispute",
+    "items": [
+      {
+        "productId": "ad97f35f-a44c-4569-a84b-08a9e2d33469",
+        "quantity": 5,
+        "totalAmount": 125
+      },
+      {
+        "productId": "a8763fdc-b9ad-4571-a84d-08a9e2d33469",
+        "quantity": 1,
+        "totalAmount": 433.75
+      }
+    ],
+    "totalAmount": 558.75
+  },
+  {
+    "orderId": "8b61c4fa-a3e1-48da-9145-cd229a71e332",
+    "userId": "cliente2",
+    "orderDate": "2024-06-03T13:30:46.801Z",
+    "status": "canceled",
+    "items": [
+      {
+        "productId": "98b4g619-33bc-4579-a855-08a9e2d33469",
+        "quantity": 5,
+        "totalAmount": 7499.95
+      },
+      {
+        "productId": "f854a5b3-d382-4573-a84f-08a9e2d33469",
+        "quantity": 3,
+        "totalAmount": 1797
+      }
+    ],
+    "totalAmount": 9296.95
+  },
+  {
+    "orderId": "90ac34ff-1710-4fca-9954-5b35694b8ed7",
+    "userId": "cliente3",
+    "orderDate": "2024-08-14T16:05:37.662Z",
+    "status": "inDispute",
+    "items": [
+      {
+        "productId": "c93b9226-6136-4570-a84c-04a9e2d33469",
+        "quantity": 2,
+        "totalAmount": 1501
+      }
+    ],
+    "totalAmount": 1501
+  },
+  {
+    "orderId": "5a1a7b6d-6cf3-4c64-b3ff-75abd1a643f6",
+    "userId": "cliente3",
+    "orderDate": "2024-04-23T16:35:53.537Z",
+    "status": "inTransit",
+    "items": [
+      {
+        "productId": "f854a5b3-d382-4573-a84f-08a9e2d33469",
+        "quantity": 1,
+        "totalAmount": 599
+      },
+      {
+        "productId": "a840dc95-9b49-476e-b844-90cdfc38fd48",
+        "quantity": 3,
+        "totalAmount": 706.5
+      },
+      {
+        "productId": "a8763fdc-b9ad-4571-a84d-08a9e2d33469",
+        "quantity": 5,
+        "totalAmount": 2168.75
+      }
+    ],
+    "totalAmount": 3474.25
+  },
+  {
+    "orderId": "bb803105-530e-4d1b-ae63-cdb0dbfa0b7c",
+    "userId": "cliente4",
+    "orderDate": "2024-06-07T21:54:31.659Z",
+    "status": "shipped",
+    "items": [
+      {
+        "productId": "c884d5e6-00ba-4576-a852-08a9e2d33469",
+        "quantity": 1,
+        "totalAmount": 134.9
+      },
+      {
+        "productId": "e4994b44-9684-4568-ab48-04d6e0d55e0e",
+        "quantity": 4,
+        "totalAmount": 1400
+      }
+    ],
+    "totalAmount": 1534.9
+  },
+  {
+    "orderId": "4160dfb4-d8a6-48ec-82a1-6b2f7f651601",
+    "userId": "cliente4",
+    "orderDate": "2024-04-02T16:50:15.554Z",
+    "status": "readyToShip",
+    "items": [
+      {
+        "productId": "f854a5b3-d382-4573-a84f-08a9e2d33469",
+        "quantity": 3,
+        "totalAmount": 1797
+      },
+      {
+        "productId": "9b1deb4d-3b7d-4bad-9efd-d6495fa87d1b",
+        "quantity": 1,
+        "totalAmount": 79.6
+      }
+    ],
+    "totalAmount": 1876.6
+  },
+  {
+    "orderId": "2c904b47-5f81-4173-a049-5018ad5b2d70",
+    "userId": "cliente1",
+    "orderDate": "2024-03-17T18:11:16.616Z",
+    "status": "inTransit",
+    "items": [
+      {
+        "productId": "f854a5b3-d382-4573-a84f-08a9e2d33469",
+        "quantity": 2,
+        "totalAmount": 1198
+      }
+    ],
+    "totalAmount": 1198
+  },
+  {
+    "orderId": "1c6812d6-cd8a-4b39-a7ef-b041911b9c71",
+    "userId": "cliente4",
+    "orderDate": "2024-10-08T10:55:39.150Z",
+    "status": "shipped",
+    "items": [
+      {
+        "productId": "a8763fdc-b9ad-4571-a84d-08a9e2d33469",
+        "quantity": 5,
+        "totalAmount": 2168.75
+      },
+      {
+        "productId": "d874c5d5-f1aa-4575-a851-08a9e2d33469",
+        "quantity": 4,
+        "totalAmount": 1125
+      }
+    ],
+    "totalAmount": 3293.75
+  },
+  {
+    "orderId": "f4cbb072-8dcb-4268-919e-470cadbb1fc1",
+    "userId": "cliente4",
+    "orderDate": "2024-05-13T17:25:41.560Z",
+    "status": "readyToShip",
+    "items": [
+      {
+        "productId": "d84578ac-2156-4572-a84e-08a9e2d33469",
+        "quantity": 2,
+        "totalAmount": 660
+      },
+      {
+        "productId": "d874c5d5-f1aa-4575-a851-08a9e2d33469",
+        "quantity": 2,
+        "totalAmount": 562.5
+      }
+    ],
+    "totalAmount": 1222.5
+  },
+  {
+    "orderId": "2333e6f9-e678-4bbd-af05-ea27ba0f1f4c",
+    "userId": "candidato-user-id",
+    "orderDate": "2024-06-09T01:45:30.510Z",
+    "status": "inProduction",
+    "items": [
+      {
+        "productId": "c93b9226-6136-4570-a84c-04a9e2d33469",
+        "quantity": 2,
+        "totalAmount": 1501
+      },
+      {
+        "productId": "3fa85f64-5717-4562-b3fc-2c963f611b60",
+        "quantity": 2,
+        "totalAmount": 119.98
+      },
+      {
+        "productId": "d84578ac-2156-4572-a84e-08a9e2d33469",
+        "quantity": 4,
+        "totalAmount": 1320
+      }
+    ],
+    "totalAmount": 2940.98
+  },
+  {
+    "orderId": "cf8ffae9-983e-4d07-9fb0-9459f61f358a",
+    "userId": "cliente2",
+    "orderDate": "2024-05-30T16:59:44.154Z",
+    "status": "delivered",
+    "items": [
+      {
+        "productId": "c884d5e6-00ba-4576-a852-08a9e2d33469",
+        "quantity": 2,
+        "totalAmount": 269.8
+      },
+      {
+        "productId": "a8a4f608-22b8-4578-a854-08a9e2d33469",
+        "quantity": 4,
+        "totalAmount": 2759.6
+      },
+      {
+        "productId": "9b1deb4d-3b7d-4bad-9efd-d6495fa87d1b",
+        "quantity": 3,
+        "totalAmount": 238.79999999999998
+      }
+    ],
+    "totalAmount": 3268.2000000000003
+  },
+  {
+    "orderId": "b645ec22-7277-4a27-a1e0-6149ef27e5db",
+    "userId": "candidato-user-id",
+    "orderDate": "2024-05-23T11:26:32.627Z",
+    "status": "shipped",
+    "items": [
+      {
+        "productId": "cb97fac1-2490-4566-b454-93a0b5c21fab",
+        "quantity": 4,
+        "totalAmount": 600
+      },
+      {
+        "productId": "ad97f35f-a44c-4569-a84b-08a9e2d33469",
+        "quantity": 2,
+        "totalAmount": 50
+      }
+    ],
+    "totalAmount": 650
+  },
+  {
+    "orderId": "67367017-d831-416a-96f9-2e8a0f877f00",
+    "userId": "candidato-user-id",
+    "orderDate": "2024-01-16T01:59:53.242Z",
+    "status": "delivered",
+    "items": [
+      {
+        "productId": "e864b5c4-e2b6-4574-a850-08a9e2d33469",
+        "quantity": 2,
+        "totalAmount": 740.6
+      }
+    ],
+    "totalAmount": 740.6
+  },
+  {
+    "orderId": "e19248dd-9ae5-403c-8f24-6579df93dcc8",
+    "userId": "candidato-user-id",
+    "orderDate": "2024-04-17T17:36:42.668Z",
+    "status": "invoiced",
+    "items": [
+      {
+        "productId": "a8763fdc-b9ad-4571-a84d-08a9e2d33469",
+        "quantity": 4,
+        "totalAmount": 1735
+      },
+      {
+        "productId": "98b4g619-33bc-4579-a855-08a9e2d33469",
+        "quantity": 2,
+        "totalAmount": 2999.98
+      },
+      {
+        "productId": "c93b9226-6136-4570-a84c-04a9e2d33469",
+        "quantity": 2,
+        "totalAmount": 1501
+      }
+    ],
+    "totalAmount": 6235.98
+  },
+  {
+    "orderId": "d31e6f4d-f9bd-45fc-a9f0-ea39526a9675",
+    "userId": "cliente1",
+    "orderDate": "2024-07-22T18:06:48.914Z",
+    "status": "shipped",
+    "items": [
+      {
+        "productId": "c884d5e6-00ba-4576-a852-08a9e2d33469",
+        "quantity": 2,
+        "totalAmount": 269.8
+      }
+    ],
+    "totalAmount": 269.8
+  },
+  {
+    "orderId": "d109a405-ff55-4a3e-b491-1cc36443a305",
+    "userId": "cliente3",
+    "orderDate": "2024-02-16T11:30:39.332Z",
+    "status": "awaitingPayment",
+    "items": [
+      {
+        "productId": "b894e5f7-11b4-4577-a853-08a9e2d33469",
+        "quantity": 2,
+        "totalAmount": 780
+      },
+      {
+        "productId": "a8763fdc-b9ad-4571-a84d-08a9e2d33469",
+        "quantity": 3,
+        "totalAmount": 1301.25
+      }
+    ],
+    "totalAmount": 2081.25
+  },
+  {
+    "orderId": "72e481f0-a51e-42e5-aa9f-62c8c794f88f",
+    "userId": "cliente1",
+    "orderDate": "2024-04-17T10:28:30.208Z",
+    "status": "returned",
+    "items": [
+      {
+        "productId": "d874c5d5-f1aa-4575-a851-08a9e2d33469",
+        "quantity": 4,
+        "totalAmount": 1125
+      },
+      {
+        "productId": "e4994b44-9684-4568-ab48-04d6e0d55e0e",
+        "quantity": 2,
+        "totalAmount": 700
+      }
+    ],
+    "totalAmount": 1825
+  },
+  {
+    "orderId": "e8c9dfaa-9e08-437b-9a98-98c741ea22e3",
+    "userId": "cliente5",
+    "orderDate": "2024-04-04T09:02:53.794Z",
+    "status": "readyToShip",
+    "items": [
+      {
+        "productId": "ad97f35f-a44c-4569-a84b-08a9e2d33469",
+        "quantity": 4,
+        "totalAmount": 100
+      },
+      {
+        "productId": "02984876-60f0-4e9c-a053-eb54e1ac86ba",
+        "quantity": 2,
+        "totalAmount": 111.8
+      }
+    ],
+    "totalAmount": 211.8
+  },
+  {
+    "orderId": "672b7708-66b0-4d1c-b25b-c950dc5314a0",
+    "userId": "cliente5",
+    "orderDate": "2024-05-16T23:03:08.931Z",
+    "status": "invoiced",
+    "items": [
+      {
+        "productId": "c93b9226-6136-4570-a84c-04a9e2d33469",
+        "quantity": 1,
+        "totalAmount": 750.5
+      }
+    ],
+    "totalAmount": 750.5
+  },
+  {
+    "orderId": "9e90e2eb-ee91-4fcc-9619-292307e31b11",
+    "userId": "cliente1",
+    "orderDate": "2024-02-24T06:53:43.350Z",
+    "status": "inProduction",
+    "items": [
+      {
+        "productId": "e864b5c4-e2b6-4574-a850-08a9e2d33469",
+        "quantity": 3,
+        "totalAmount": 1110.9
+      },
+      {
+        "productId": "78441256-a44c-4567-98ab-4b6d49c621e6",
+        "quantity": 3,
+        "totalAmount": 5400
+      }
+    ],
+    "totalAmount": 6510.9
+  },
+  {
+    "orderId": "1d93fbe7-4775-4318-b59c-57ff423b73de",
+    "userId": "cliente4",
+    "orderDate": "2024-02-03T09:45:57.881Z",
+    "status": "canceled",
+    "items": [
+      {
+        "productId": "b894e5f7-11b4-4577-a853-08a9e2d33469",
+        "quantity": 5,
+        "totalAmount": 1950
+      },
+      {
+        "productId": "cb97fac1-2490-4566-b454-93a0b5c21fab",
+        "quantity": 4,
+        "totalAmount": 600
+      },
+      {
+        "productId": "a8763fdc-b9ad-4571-a84d-08a9e2d33469",
+        "quantity": 2,
+        "totalAmount": 867.5
+      }
+    ],
+    "totalAmount": 3417.5
+  },
+  {
+    "orderId": "62c45de5-b4df-43bf-a545-46b308ca2975",
+    "userId": "cliente6",
+    "orderDate": "2024-05-06T12:41:34.421Z",
+    "status": "inPreparation",
+    "items": [
+      {
+        "productId": "e864b5c4-e2b6-4574-a850-08a9e2d33469",
+        "quantity": 2,
+        "totalAmount": 740.6
+      },
+      {
+        "productId": "e4994b44-9684-4568-ab48-04d6e0d55e0e",
+        "quantity": 2,
+        "totalAmount": 700
+      }
+    ],
+    "totalAmount": 1440.6
+  },
+  {
+    "orderId": "4a0b03a8-3e8e-473f-8dee-620309743a62",
+    "userId": "cliente4",
+    "orderDate": "2024-03-13T13:27:07.155Z",
+    "status": "returned",
+    "items": [
+      {
+        "productId": "e4994b44-9684-4568-ab48-04d6e0d55e0e",
+        "quantity": 5,
+        "totalAmount": 1750
+      },
+      {
+        "productId": "78441256-a44c-4567-98ab-4b6d49c621e6",
+        "quantity": 4,
+        "totalAmount": 7200
+      }
+    ],
+    "totalAmount": 8950
+  },
+  {
+    "orderId": "4a6da83f-8fcc-418a-aa92-4d78169a720c",
+    "userId": "candidato-user-id",
+    "orderDate": "2024-05-13T06:45:08.166Z",
+    "status": "inDispute",
+    "items": [
+      {
+        "productId": "ad97f35f-a44c-4569-a84b-08a9e2d33469",
+        "quantity": 2,
+        "totalAmount": 50
+      },
+      {
+        "productId": "e4994b44-9684-4568-ab48-04d6e0d55e0e",
+        "quantity": 1,
+        "totalAmount": 350
+      }
+    ],
+    "totalAmount": 400
+  },
+  {
+    "orderId": "7560a8c9-c98c-4831-b3dc-49a0ca08e216",
+    "userId": "cliente4",
+    "orderDate": "2024-05-24T10:51:50.072Z",
+    "status": "readyToShip",
+    "items": [
+      {
+        "productId": "9b1deb4d-3b7d-4bad-9efd-d6495fa87d1b",
+        "quantity": 4,
+        "totalAmount": 318.4
+      }
+    ],
+    "totalAmount": 318.4
+  },
+  {
+    "orderId": "c937fa38-34da-4402-a892-af81b4758a02",
+    "userId": "cliente5",
+    "orderDate": "2024-01-17T01:07:14.074Z",
+    "status": "inPreparation",
+    "items": [
+      {
+        "productId": "78441256-a44c-4567-98ab-4b6d49c621e6",
+        "quantity": 1,
+        "totalAmount": 1800
+      }
+    ],
+    "totalAmount": 1800
+  },
+  {
+    "orderId": "5e91b386-b1ae-4840-a9f2-b1b0534c1fa2",
+    "userId": "cliente2",
+    "orderDate": "2024-08-29T13:14:21.367Z",
+    "status": "returned",
+    "items": [
+      {
+        "productId": "98b4g619-33bc-4579-a855-08a9e2d33469",
+        "quantity": 4,
+        "totalAmount": 5999.96
+      },
+      {
+        "productId": "3fa85f64-5717-4562-b3fc-2c963f611b60",
+        "quantity": 2,
+        "totalAmount": 119.98
+      }
+    ],
+    "totalAmount": 6119.94
+  },
+  {
+    "orderId": "8f34d71e-7d56-46d8-be29-69bb16768efd",
+    "userId": "candidato-user-id",
+    "orderDate": "2024-05-11T02:22:21.339Z",
+    "status": "awaitingPayment",
+    "items": [
+      {
+        "productId": "02984876-60f0-4e9c-a053-eb54e1ac86ba",
+        "quantity": 5,
+        "totalAmount": 279.5
+      },
+      {
+        "productId": "e4994b44-9684-4568-ab48-04d6e0d55e0e",
+        "quantity": 4,
+        "totalAmount": 1400
+      },
+      {
+        "productId": "cb97fac1-2490-4566-b454-93a0b5c21fab",
+        "quantity": 3,
+        "totalAmount": 450
+      }
+    ],
+    "totalAmount": 2129.5
+  },
+  {
+    "orderId": "8a9d7a0a-d722-4095-8567-c2de7037a906",
+    "userId": "cliente5",
+    "orderDate": "2024-06-15T17:44:07.205Z",
+    "status": "inPreparation",
+    "items": [
+      {
+        "productId": "c884d5e6-00ba-4576-a852-08a9e2d33469",
+        "quantity": 3,
+        "totalAmount": 404.70000000000005
+      },
+      {
+        "productId": "c93b9226-6136-4570-a84c-04a9e2d33469",
+        "quantity": 4,
+        "totalAmount": 3002
+      }
+    ],
+    "totalAmount": 3406.7
+  },
+  {
+    "orderId": "d8ede52c-c9f4-4337-8f58-78d0c995c603",
+    "userId": "cliente1",
+    "orderDate": "2024-09-16T15:23:37.230Z",
+    "status": "canceled",
+    "items": [
+      {
+        "productId": "c93b9226-6136-4570-a84c-04a9e2d33469",
+        "quantity": 3,
+        "totalAmount": 2251.5
+      }
+    ],
+    "totalAmount": 2251.5
+  },
+  {
+    "orderId": "1459d3e2-3aac-437b-9f5c-818f04dc3968",
+    "userId": "cliente2",
+    "orderDate": "2024-05-22T12:05:27.316Z",
+    "status": "delivered",
+    "items": [
+      {
+        "productId": "ad97f35f-a44c-4569-a84b-08a9e2d33469",
+        "quantity": 5,
+        "totalAmount": 125
+      },
+      {
+        "productId": "f854a5b3-d382-4573-a84f-08a9e2d33469",
+        "quantity": 3,
+        "totalAmount": 1797
+      },
+      {
+        "productId": "cb97fac1-2490-4566-b454-93a0b5c21fab",
+        "quantity": 3,
+        "totalAmount": 450
+      }
+    ],
+    "totalAmount": 2372
+  },
+  {
+    "orderId": "f28c67f8-935f-455e-bc88-de3a87e6f72e",
+    "userId": "candidato-user-id",
+    "orderDate": "2024-10-08T22:45:59.290Z",
+    "status": "invoiced",
+    "items": [
+      {
+        "productId": "ad97f35f-a44c-4569-a84b-08a9e2d33469",
+        "quantity": 3,
+        "totalAmount": 75
+      },
+      {
+        "productId": "a8763fdc-b9ad-4571-a84d-08a9e2d33469",
+        "quantity": 2,
+        "totalAmount": 867.5
+      },
+      {
+        "productId": "e864b5c4-e2b6-4574-a850-08a9e2d33469",
+        "quantity": 1,
+        "totalAmount": 370.3
+      }
+    ],
+    "totalAmount": 1312.8
+  },
+  {
+    "orderId": "ad064e55-6d88-463b-82db-d71f07b6ec98",
+    "userId": "cliente5",
+    "orderDate": "2024-09-14T17:53:34.100Z",
+    "status": "received",
+    "items": [
+      {
+        "productId": "e4994b44-9684-4568-ab48-04d6e0d55e0e",
+        "quantity": 1,
+        "totalAmount": 350
+      }
+    ],
+    "totalAmount": 350
+  },
+  {
+    "orderId": "430bfb76-17bd-4a13-8bc7-70ec6e6201c3",
+    "userId": "cliente2",
+    "orderDate": "2024-04-24T06:17:44.585Z",
+    "status": "returned",
+    "items": [
+      {
+        "productId": "c884d5e6-00ba-4576-a852-08a9e2d33469",
+        "quantity": 3,
+        "totalAmount": 404.70000000000005
+      },
+      {
+        "productId": "d84578ac-2156-4572-a84e-08a9e2d33469",
+        "quantity": 2,
+        "totalAmount": 660
+      }
+    ],
+    "totalAmount": 1064.7
+  },
+  {
+    "orderId": "740d0029-6f8f-481e-9385-055a0ad1c477",
+    "userId": "cliente6",
+    "orderDate": "2024-07-31T17:01:42.076Z",
+    "status": "paymentApproved",
+    "items": [
+      {
+        "productId": "98b4g619-33bc-4579-a855-08a9e2d33469",
+        "quantity": 5,
+        "totalAmount": 7499.95
+      },
+      {
+        "productId": "9b1deb4d-3b7d-4bad-9efd-d6495fa87d1b",
+        "quantity": 2,
+        "totalAmount": 159.2
+      },
+      {
+        "productId": "a840dc95-9b49-476e-b844-90cdfc38fd48",
+        "quantity": 1,
+        "totalAmount": 235.5
+      }
+    ],
+    "totalAmount": 7894.65
+  },
+  {
+    "orderId": "acd9fe24-5387-4f35-ad9d-c50346d380e4",
+    "userId": "cliente2",
+    "orderDate": "2024-02-21T21:34:21.294Z",
+    "status": "received",
+    "items": [
+      {
+        "productId": "cb97fac1-2490-4566-b454-93a0b5c21fab",
+        "quantity": 5,
+        "totalAmount": 750
+      },
+      {
+        "productId": "d84578ac-2156-4572-a84e-08a9e2d33469",
+        "quantity": 4,
+        "totalAmount": 1320
+      },
+      {
+        "productId": "a8763fdc-b9ad-4571-a84d-08a9e2d33469",
+        "quantity": 4,
+        "totalAmount": 1735
+      }
+    ],
+    "totalAmount": 3805
+  },
+  {
+    "orderId": "83089a5e-bc88-4bf4-83a0-c4f67ce9d581",
+    "userId": "cliente5",
+    "orderDate": "2024-03-17T13:54:06.980Z",
+    "status": "awaitingPickup",
+    "items": [
+      {
+        "productId": "a840dc95-9b49-476e-b844-90cdfc38fd48",
+        "quantity": 4,
+        "totalAmount": 942
+      },
+      {
+        "productId": "02984876-60f0-4e9c-a053-eb54e1ac86ba",
+        "quantity": 4,
+        "totalAmount": 223.6
+      },
+      {
+        "productId": "d84578ac-2156-4572-a84e-08a9e2d33469",
+        "quantity": 2,
+        "totalAmount": 660
+      }
+    ],
+    "totalAmount": 1825.6
+  },
+  {
+    "orderId": "6755a71b-b88d-4e1f-9bbb-62b25090b0ec",
+    "userId": "cliente2",
+    "orderDate": "2024-10-09T11:35:32.968Z",
+    "status": "awaitingPickup",
+    "items": [
+      {
+        "productId": "88c4h62a-44be-457a-a856-08a9e2d33469",
+        "quantity": 3,
+        "totalAmount": 1113.4499999999998
+      }
+    ],
+    "totalAmount": 1113.4499999999998
+  },
+  {
+    "orderId": "f1540671-0659-426c-9fa2-bf87fa79eb71",
+    "userId": "cliente2",
+    "orderDate": "2024-03-12T16:26:38.842Z",
+    "status": "readyToShip",
+    "items": [
+      {
+        "productId": "b894e5f7-11b4-4577-a853-08a9e2d33469",
+        "quantity": 3,
+        "totalAmount": 1170
+      }
+    ],
+    "totalAmount": 1170
+  },
+  {
+    "orderId": "13a5387e-92d6-418f-908b-97803f9b4c3a",
+    "userId": "cliente2",
+    "orderDate": "2024-02-22T14:18:59.334Z",
+    "status": "inProduction",
+    "items": [
+      {
+        "productId": "9b1deb4d-3b7d-4bad-9efd-d6495fa87d1b",
+        "quantity": 5,
+        "totalAmount": 398
+      },
+      {
+        "productId": "a8763fdc-b9ad-4571-a84d-08a9e2d33469",
+        "quantity": 5,
+        "totalAmount": 2168.75
+      }
+    ],
+    "totalAmount": 2566.75
+  },
+  {
+    "orderId": "e94f74ea-fab0-4054-923e-94e411d697f8",
+    "userId": "cliente3",
+    "orderDate": "2024-08-08T22:36:07.557Z",
+    "status": "returned",
+    "items": [
+      {
+        "productId": "78441256-a44c-4567-98ab-4b6d49c621e6",
+        "quantity": 5,
+        "totalAmount": 9000
+      }
+    ],
+    "totalAmount": 9000
+  },
+  {
+    "orderId": "ec8ef397-49f4-41a9-841c-1a3f35ae3dff",
+    "userId": "cliente3",
+    "orderDate": "2024-04-20T14:40:28.847Z",
+    "status": "delivered",
+    "items": [
+      {
+        "productId": "e864b5c4-e2b6-4574-a850-08a9e2d33469",
+        "quantity": 3,
+        "totalAmount": 1110.9
+      },
+      {
+        "productId": "a8a4f608-22b8-4578-a854-08a9e2d33469",
+        "quantity": 4,
+        "totalAmount": 2759.6
+      },
+      {
+        "productId": "f854a5b3-d382-4573-a84f-08a9e2d33469",
+        "quantity": 4,
+        "totalAmount": 2396
+      }
+    ],
+    "totalAmount": 6266.5
+  },
+  {
+    "orderId": "a1c8fff0-57cb-4a11-a19a-c7e1673a7c07",
+    "userId": "cliente1",
+    "orderDate": "2024-04-15T05:37:08.715Z",
+    "status": "returned",
+    "items": [
+      {
+        "productId": "9b1deb4d-3b7d-4bad-9efd-d6495fa87d1b",
+        "quantity": 5,
+        "totalAmount": 398
+      },
+      {
+        "productId": "d874c5d5-f1aa-4575-a851-08a9e2d33469",
+        "quantity": 4,
+        "totalAmount": 1125
+      }
+    ],
+    "totalAmount": 1523
+  },
+  {
+    "orderId": "f742dc9b-84b8-4b91-944e-737d0c8843d0",
+    "userId": "cliente4",
+    "orderDate": "2024-02-18T03:03:20.501Z",
+    "status": "inDispute",
+    "items": [
+      {
+        "productId": "c884d5e6-00ba-4576-a852-08a9e2d33469",
+        "quantity": 1,
+        "totalAmount": 134.9
+      },
+      {
+        "productId": "3fa85f64-5717-4562-b3fc-2c963f611b60",
+        "quantity": 1,
+        "totalAmount": 59.99
+      }
+    ],
+    "totalAmount": 194.89000000000001
+  },
+  {
+    "orderId": "9726ef36-d5c3-46cf-9b3a-861f107ff5e7",
+    "userId": "cliente2",
+    "orderDate": "2024-06-10T22:31:47.803Z",
+    "status": "canceled",
+    "items": [
+      {
+        "productId": "a8a4f608-22b8-4578-a854-08a9e2d33469",
+        "quantity": 5,
+        "totalAmount": 3449.5
+      }
+    ],
+    "totalAmount": 3449.5
+  },
+  {
+    "orderId": "2e52603b-1029-443c-9b15-5ee54b2184c3",
+    "userId": "cliente6",
+    "orderDate": "2024-09-10T04:59:46.292Z",
+    "status": "inDispute",
+    "items": [
+      {
+        "productId": "98b4g619-33bc-4579-a855-08a9e2d33469",
+        "quantity": 3,
+        "totalAmount": 4499.97
+      },
+      {
+        "productId": "d874c5d5-f1aa-4575-a851-08a9e2d33469",
+        "quantity": 4,
+        "totalAmount": 1125
+      },
+      {
+        "productId": "a8a4f608-22b8-4578-a854-08a9e2d33469",
+        "quantity": 1,
+        "totalAmount": 689.9
+      }
+    ],
+    "totalAmount": 6314.87
+  },
+  {
+    "orderId": "5dfcc805-4c26-4232-b958-3a5a82fdbe0c",
+    "userId": "candidato-user-id",
+    "orderDate": "2024-08-01T05:34:14.504Z",
+    "status": "readyToShip",
+    "items": [
+      {
+        "productId": "02984876-60f0-4e9c-a053-eb54e1ac86ba",
+        "quantity": 3,
+        "totalAmount": 167.7
+      },
+      {
+        "productId": "ad97f35f-a44c-4569-a84b-08a9e2d33469",
+        "quantity": 1,
+        "totalAmount": 25
+      }
+    ],
+    "totalAmount": 192.7
+  },
+  {
+    "orderId": "e7e1918e-ab2c-4268-bde1-a80330f351b1",
+    "userId": "cliente4",
+    "orderDate": "2024-01-04T07:25:44.003Z",
+    "status": "paymentApproved",
+    "items": [
+      {
+        "productId": "02984876-60f0-4e9c-a053-eb54e1ac86ba",
+        "quantity": 2,
+        "totalAmount": 111.8
+      },
+      {
+        "productId": "d84578ac-2156-4572-a84e-08a9e2d33469",
+        "quantity": 4,
+        "totalAmount": 1320
+      },
+      {
+        "productId": "a8a4f608-22b8-4578-a854-08a9e2d33469",
+        "quantity": 4,
+        "totalAmount": 2759.6
+      }
+    ],
+    "totalAmount": 4191.4
+  },
+  {
+    "orderId": "bfa8e725-a8f9-4b84-9f3f-5c0ac23efced",
+    "userId": "cliente6",
+    "orderDate": "2024-06-13T09:23:17.148Z",
+    "status": "inPreparation",
+    "items": [
+      {
+        "productId": "e4994b44-9684-4568-ab48-04d6e0d55e0e",
+        "quantity": 4,
+        "totalAmount": 1400
+      },
+      {
+        "productId": "b894e5f7-11b4-4577-a853-08a9e2d33469",
+        "quantity": 5,
+        "totalAmount": 1950
+      }
+    ],
+    "totalAmount": 3350
+  },
+  {
+    "orderId": "de02f03a-7f64-4420-a98d-ef8efba08a5a",
+    "userId": "cliente3",
+    "orderDate": "2024-03-24T05:28:49.026Z",
+    "status": "awaitingPickup",
+    "items": [
+      {
+        "productId": "ad97f35f-a44c-4569-a84b-08a9e2d33469",
+        "quantity": 3,
+        "totalAmount": 75
+      },
+      {
+        "productId": "d874c5d5-f1aa-4575-a851-08a9e2d33469",
+        "quantity": 1,
+        "totalAmount": 281.25
+      },
+      {
+        "productId": "e864b5c4-e2b6-4574-a850-08a9e2d33469",
+        "quantity": 4,
+        "totalAmount": 1481.2
+      }
+    ],
+    "totalAmount": 1837.45
+  },
+  {
+    "orderId": "05758eed-f7e6-40a1-a6e6-2df624bb391a",
+    "userId": "cliente3",
+    "orderDate": "2024-01-30T04:43:28.357Z",
+    "status": "inPreparation",
+    "items": [
+      {
+        "productId": "d874c5d5-f1aa-4575-a851-08a9e2d33469",
+        "quantity": 2,
+        "totalAmount": 562.5
+      },
+      {
+        "productId": "e864b5c4-e2b6-4574-a850-08a9e2d33469",
+        "quantity": 2,
+        "totalAmount": 740.6
+      }
+    ],
+    "totalAmount": 1303.1
+  },
+  {
+    "orderId": "682e3b36-38b4-4c22-a863-1d09fe6d1b14",
+    "userId": "cliente3",
+    "orderDate": "2024-02-15T22:38:02.465Z",
+    "status": "canceled",
+    "items": [
+      {
+        "productId": "e4994b44-9684-4568-ab48-04d6e0d55e0e",
+        "quantity": 3,
+        "totalAmount": 1050
+      },
+      {
+        "productId": "cb97fac1-2490-4566-b454-93a0b5c21fab",
+        "quantity": 2,
+        "totalAmount": 300
+      }
+    ],
+    "totalAmount": 1350
+  },
+  {
+    "orderId": "15679018-d052-4645-b005-d33acb20bc99",
+    "userId": "cliente2",
+    "orderDate": "2024-10-03T22:30:27.199Z",
+    "status": "awaitingPayment",
+    "items": [
+      {
+        "productId": "a8763fdc-b9ad-4571-a84d-08a9e2d33469",
+        "quantity": 4,
+        "totalAmount": 1735
+      },
+      {
+        "productId": "f854a5b3-d382-4573-a84f-08a9e2d33469",
+        "quantity": 3,
+        "totalAmount": 1797
+      },
+      {
+        "productId": "a840dc95-9b49-476e-b844-90cdfc38fd48",
+        "quantity": 5,
+        "totalAmount": 1177.5
+      }
+    ],
+    "totalAmount": 4709.5
+  },
+  {
+    "orderId": "62f47ebc-aee9-4593-9b59-fb4be0c0bac8",
+    "userId": "cliente3",
+    "orderDate": "2024-03-20T14:06:37.903Z",
+    "status": "inDispute",
+    "items": [
+      {
+        "productId": "e864b5c4-e2b6-4574-a850-08a9e2d33469",
+        "quantity": 4,
+        "totalAmount": 1481.2
+      },
+      {
+        "productId": "ad97f35f-a44c-4569-a84b-08a9e2d33469",
+        "quantity": 5,
+        "totalAmount": 125
+      }
+    ],
+    "totalAmount": 1606.2
+  },
+  {
+    "orderId": "64bd7f6f-1869-4d64-b33f-918bbd875b35",
+    "userId": "cliente1",
+    "orderDate": "2024-04-22T04:28:48.320Z",
+    "status": "readyToShip",
+    "items": [
+      {
+        "productId": "9b1deb4d-3b7d-4bad-9efd-d6495fa87d1b",
+        "quantity": 1,
+        "totalAmount": 79.6
+      }
+    ],
+    "totalAmount": 79.6
+  },
+  {
+    "orderId": "d895d245-5ec8-4079-8493-60876f6644bb",
+    "userId": "cliente1",
+    "orderDate": "2024-05-11T18:12:28.407Z",
+    "status": "canceled",
+    "items": [
+      {
+        "productId": "a840dc95-9b49-476e-b844-90cdfc38fd48",
+        "quantity": 4,
+        "totalAmount": 942
+      },
+      {
+        "productId": "a8a4f608-22b8-4578-a854-08a9e2d33469",
+        "quantity": 1,
+        "totalAmount": 689.9
+      }
+    ],
+    "totalAmount": 1631.9
+  },
+  {
+    "orderId": "d8b04cac-cace-4828-a40f-eeca7dcf9279",
+    "userId": "cliente4",
+    "orderDate": "2024-02-14T12:20:31.046Z",
+    "status": "paymentApproved",
+    "items": [
+      {
+        "productId": "02984876-60f0-4e9c-a053-eb54e1ac86ba",
+        "quantity": 2,
+        "totalAmount": 111.8
+      }
+    ],
+    "totalAmount": 111.8
+  },
+  {
+    "orderId": "cc9e478f-8c55-46f0-bf7b-b7e2ab78476b",
+    "userId": "candidato-user-id",
+    "orderDate": "2024-10-01T19:14:59.493Z",
+    "status": "paymentApproved",
+    "items": [
+      {
+        "productId": "f854a5b3-d382-4573-a84f-08a9e2d33469",
+        "quantity": 5,
+        "totalAmount": 2995
+      },
+      {
+        "productId": "d84578ac-2156-4572-a84e-08a9e2d33469",
+        "quantity": 3,
+        "totalAmount": 990
+      }
+    ],
+    "totalAmount": 3985
+  },
+  {
+    "orderId": "f2c12fb6-f400-47e2-9202-66931df0bfbd",
+    "userId": "candidato-user-id",
+    "orderDate": "2024-06-11T06:17:55.382Z",
+    "status": "inPreparation",
+    "items": [
+      {
+        "productId": "c884d5e6-00ba-4576-a852-08a9e2d33469",
+        "quantity": 1,
+        "totalAmount": 134.9
+      },
+      {
+        "productId": "a8763fdc-b9ad-4571-a84d-08a9e2d33469",
+        "quantity": 1,
+        "totalAmount": 433.75
+      },
+      {
+        "productId": "a8a4f608-22b8-4578-a854-08a9e2d33469",
+        "quantity": 5,
+        "totalAmount": 3449.5
+      }
+    ],
+    "totalAmount": 4018.15
+  },
+  {
+    "orderId": "30e68973-2c68-419a-9de4-28484d1a614d",
+    "userId": "cliente2",
+    "orderDate": "2024-05-05T17:43:47.253Z",
+    "status": "inTransit",
+    "items": [
+      {
+        "productId": "cb97fac1-2490-4566-b454-93a0b5c21fab",
+        "quantity": 2,
+        "totalAmount": 300
+      }
+    ],
+    "totalAmount": 300
+  },
+  {
+    "orderId": "7ff5f750-3bb8-4b0a-981b-469668d20621",
+    "userId": "cliente6",
+    "orderDate": "2024-06-25T19:18:51.552Z",
+    "status": "inPreparation",
+    "items": [
+      {
+        "productId": "02984876-60f0-4e9c-a053-eb54e1ac86ba",
+        "quantity": 3,
+        "totalAmount": 167.7
+      },
+      {
+        "productId": "78441256-a44c-4567-98ab-4b6d49c621e6",
+        "quantity": 5,
+        "totalAmount": 9000
+      },
+      {
+        "productId": "cb97fac1-2490-4566-b454-93a0b5c21fab",
+        "quantity": 5,
+        "totalAmount": 750
+      }
+    ],
+    "totalAmount": 9917.7
+  },
+  {
+    "orderId": "89c3b1f8-ae38-489e-a28d-e91a7aa7f4ec",
+    "userId": "cliente2",
+    "orderDate": "2024-02-08T11:16:03.820Z",
+    "status": "awaitingPickup",
+    "items": [
+      {
+        "productId": "d874c5d5-f1aa-4575-a851-08a9e2d33469",
+        "quantity": 5,
+        "totalAmount": 1406.25
+      },
+      {
+        "productId": "b894e5f7-11b4-4577-a853-08a9e2d33469",
+        "quantity": 3,
+        "totalAmount": 1170
+      },
+      {
+        "productId": "e4994b44-9684-4568-ab48-04d6e0d55e0e",
+        "quantity": 5,
+        "totalAmount": 1750
+      }
+    ],
+    "totalAmount": 4326.25
+  },
+  {
+    "orderId": "c4bd7020-44a1-45ae-af39-db0c2403264a",
+    "userId": "cliente4",
+    "orderDate": "2024-07-05T20:37:28.025Z",
+    "status": "inDispute",
+    "items": [
+      {
+        "productId": "78441256-a44c-4567-98ab-4b6d49c621e6",
+        "quantity": 1,
+        "totalAmount": 1800
+      },
+      {
+        "productId": "02984876-60f0-4e9c-a053-eb54e1ac86ba",
+        "quantity": 4,
+        "totalAmount": 223.6
+      },
+      {
+        "productId": "a8a4f608-22b8-4578-a854-08a9e2d33469",
+        "quantity": 3,
+        "totalAmount": 2069.7
+      }
+    ],
+    "totalAmount": 4093.2999999999997
+  },
+  {
+    "orderId": "b6c6e7be-5549-494e-ac6d-8554f490be51",
+    "userId": "cliente6",
+    "orderDate": "2024-06-16T08:54:29.943Z",
+    "status": "awaitingPickup",
+    "items": [
+      {
+        "productId": "d84578ac-2156-4572-a84e-08a9e2d33469",
+        "quantity": 5,
+        "totalAmount": 1650
+      }
+    ],
+    "totalAmount": 1650
+  },
+  {
+    "orderId": "b9c152c3-719f-4512-a280-2a5ac346f801",
+    "userId": "cliente3",
+    "orderDate": "2024-03-13T20:19:10.602Z",
+    "status": "invoiced",
+    "items": [
+      {
+        "productId": "9b1deb4d-3b7d-4bad-9efd-d6495fa87d1b",
+        "quantity": 2,
+        "totalAmount": 159.2
+      }
+    ],
+    "totalAmount": 159.2
+  },
+  {
+    "orderId": "70be8276-52a9-4caf-a176-58e7958825ee",
+    "userId": "cliente1",
+    "orderDate": "2024-03-06T14:24:22.721Z",
+    "status": "invoiced",
+    "items": [
+      {
+        "productId": "c884d5e6-00ba-4576-a852-08a9e2d33469",
+        "quantity": 1,
+        "totalAmount": 134.9
+      },
+      {
+        "productId": "e4994b44-9684-4568-ab48-04d6e0d55e0e",
+        "quantity": 4,
+        "totalAmount": 1400
+      },
+      {
+        "productId": "a840dc95-9b49-476e-b844-90cdfc38fd48",
+        "quantity": 4,
+        "totalAmount": 942
+      }
+    ],
+    "totalAmount": 2476.9
+  },
+  {
+    "orderId": "b729ac71-15a2-4bf5-a71e-57584c0c1492",
+    "userId": "cliente4",
+    "orderDate": "2024-03-11T20:35:45.152Z",
+    "status": "inPreparation",
+    "items": [
+      {
+        "productId": "9b1deb4d-3b7d-4bad-9efd-d6495fa87d1b",
+        "quantity": 1,
+        "totalAmount": 79.6
+      }
+    ],
+    "totalAmount": 79.6
+  },
+  {
+    "orderId": "77fc925a-ff75-4564-bb2c-4337f5922d13",
+    "userId": "cliente2",
+    "orderDate": "2024-05-05T23:43:11.229Z",
+    "status": "canceled",
+    "items": [
+      {
+        "productId": "88c4h62a-44be-457a-a856-08a9e2d33469",
+        "quantity": 5,
+        "totalAmount": 1855.75
+      }
+    ],
+    "totalAmount": 1855.75
+  },
+  {
+    "orderId": "a9000498-be89-4972-8a03-dcea53ddd324",
+    "userId": "cliente3",
+    "orderDate": "2024-04-20T06:58:20.570Z",
+    "status": "inPreparation",
+    "items": [
+      {
+        "productId": "a840dc95-9b49-476e-b844-90cdfc38fd48",
+        "quantity": 4,
+        "totalAmount": 942
+      }
+    ],
+    "totalAmount": 942
+  },
+  {
+    "orderId": "634c243d-79ad-45ea-9615-f1979d5680b8",
+    "userId": "cliente2",
+    "orderDate": "2024-07-29T18:50:46.126Z",
+    "status": "readyToShip",
+    "items": [
+      {
+        "productId": "e4994b44-9684-4568-ab48-04d6e0d55e0e",
+        "quantity": 5,
+        "totalAmount": 1750
+      },
+      {
+        "productId": "78441256-a44c-4567-98ab-4b6d49c621e6",
+        "quantity": 2,
+        "totalAmount": 3600
+      },
+      {
+        "productId": "f854a5b3-d382-4573-a84f-08a9e2d33469",
+        "quantity": 3,
+        "totalAmount": 1797
+      }
+    ],
+    "totalAmount": 7147
+  },
+  {
+    "orderId": "f18bade7-a45c-487e-80e3-959c35806637",
+    "userId": "cliente1",
+    "orderDate": "2024-06-03T10:49:12.147Z",
+    "status": "awaitingPickup",
+    "items": [
+      {
+        "productId": "3fa85f64-5717-4562-b3fc-2c963f611b60",
+        "quantity": 4,
+        "totalAmount": 239.96
+      },
+      {
+        "productId": "9b1deb4d-3b7d-4bad-9efd-d6495fa87d1b",
+        "quantity": 1,
+        "totalAmount": 79.6
+      },
+      {
+        "productId": "d874c5d5-f1aa-4575-a851-08a9e2d33469",
+        "quantity": 3,
+        "totalAmount": 843.75
+      }
+    ],
+    "totalAmount": 1163.31
+  },
+  {
+    "orderId": "505c2db3-e91f-4266-8939-b680cf26ec72",
+    "userId": "cliente1",
+    "orderDate": "2024-06-24T04:32:17.468Z",
+    "status": "awaitingPayment",
+    "items": [
+      {
+        "productId": "9b1deb4d-3b7d-4bad-9efd-d6495fa87d1b",
+        "quantity": 2,
+        "totalAmount": 159.2
+      }
+    ],
+    "totalAmount": 159.2
+  },
+  {
+    "orderId": "8a4d6028-66b7-44db-84f7-dec40dee540e",
+    "userId": "cliente6",
+    "orderDate": "2024-06-03T00:37:24.683Z",
+    "status": "inTransit",
+    "items": [
+      {
+        "productId": "c884d5e6-00ba-4576-a852-08a9e2d33469",
+        "quantity": 5,
+        "totalAmount": 674.5
+      },
+      {
+        "productId": "d874c5d5-f1aa-4575-a851-08a9e2d33469",
+        "quantity": 1,
+        "totalAmount": 281.25
+      },
+      {
+        "productId": "02984876-60f0-4e9c-a053-eb54e1ac86ba",
+        "quantity": 1,
+        "totalAmount": 55.9
+      }
+    ],
+    "totalAmount": 1011.65
+  },
+  {
+    "orderId": "cf9ab263-2f83-4c61-8949-fb1fc4851d89",
+    "userId": "cliente2",
+    "orderDate": "2024-05-01T18:40:56.908Z",
+    "status": "awaitingPickup",
+    "items": [
+      {
+        "productId": "d84578ac-2156-4572-a84e-08a9e2d33469",
+        "quantity": 5,
+        "totalAmount": 1650
+      },
+      {
+        "productId": "78441256-a44c-4567-98ab-4b6d49c621e6",
+        "quantity": 4,
+        "totalAmount": 7200
+      }
+    ],
+    "totalAmount": 8850
+  },
+  {
+    "orderId": "3f948794-d51e-46ba-9daf-05bf001fa034",
+    "userId": "cliente5",
+    "orderDate": "2024-05-07T01:35:00.150Z",
+    "status": "paymentApproved",
+    "items": [
+      {
+        "productId": "f854a5b3-d382-4573-a84f-08a9e2d33469",
+        "quantity": 2,
+        "totalAmount": 1198
+      }
+    ],
+    "totalAmount": 1198
+  },
+  {
+    "orderId": "2e0d7d56-5fc7-448c-a100-3917ebe3b94b",
+    "userId": "cliente5",
+    "orderDate": "2024-01-10T07:14:22.137Z",
+    "status": "inTransit",
+    "items": [
+      {
+        "productId": "a840dc95-9b49-476e-b844-90cdfc38fd48",
+        "quantity": 1,
+        "totalAmount": 235.5
+      },
+      {
+        "productId": "78441256-a44c-4567-98ab-4b6d49c621e6",
+        "quantity": 1,
+        "totalAmount": 1800
+      }
+    ],
+    "totalAmount": 2035.5
+  },
+  {
+    "orderId": "f0078589-b26b-44a5-9a4b-b54ffd72ccd5",
+    "userId": "cliente5",
+    "orderDate": "2024-08-25T18:52:31.947Z",
+    "status": "paymentApproved",
+    "items": [
+      {
+        "productId": "e4994b44-9684-4568-ab48-04d6e0d55e0e",
+        "quantity": 5,
+        "totalAmount": 1750
+      }
+    ],
+    "totalAmount": 1750
+  },
+  {
+    "orderId": "22473bdf-13ba-4e20-b039-13408ede78f3",
+    "userId": "cliente4",
+    "orderDate": "2024-02-18T08:07:49.077Z",
+    "status": "awaitingPayment",
+    "items": [
+      {
+        "productId": "ad97f35f-a44c-4569-a84b-08a9e2d33469",
+        "quantity": 4,
+        "totalAmount": 100
+      },
+      {
+        "productId": "cb97fac1-2490-4566-b454-93a0b5c21fab",
+        "quantity": 4,
+        "totalAmount": 600
+      },
+      {
+        "productId": "e864b5c4-e2b6-4574-a850-08a9e2d33469",
+        "quantity": 5,
+        "totalAmount": 1851.5
+      }
+    ],
+    "totalAmount": 2551.5
+  },
+  {
+    "orderId": "8c37de82-b89d-45d7-b63d-9b91286120fe",
+    "userId": "candidato-user-id",
+    "orderDate": "2024-02-05T09:40:24.445Z",
+    "status": "canceled",
+    "items": [
+      {
+        "productId": "a8763fdc-b9ad-4571-a84d-08a9e2d33469",
+        "quantity": 5,
+        "totalAmount": 2168.75
+      }
+    ],
+    "totalAmount": 2168.75
+  },
+  {
+    "orderId": "5403df92-1d26-492c-91f5-61d22f3bbfae",
+    "userId": "cliente3",
+    "orderDate": "2024-03-24T22:47:20.731Z",
+    "status": "inDispute",
+    "items": [
+      {
+        "productId": "a840dc95-9b49-476e-b844-90cdfc38fd48",
+        "quantity": 2,
+        "totalAmount": 471
+      },
+      {
+        "productId": "02984876-60f0-4e9c-a053-eb54e1ac86ba",
+        "quantity": 1,
+        "totalAmount": 55.9
+      }
+    ],
+    "totalAmount": 526.9
+  },
+  {
+    "orderId": "789b7d18-c2cb-4a7b-8498-82f61ee7d797",
+    "userId": "cliente2",
+    "orderDate": "2024-08-21T04:39:58.010Z",
+    "status": "readyToShip",
+    "items": [
+      {
+        "productId": "a8a4f608-22b8-4578-a854-08a9e2d33469",
+        "quantity": 3,
+        "totalAmount": 2069.7
+      }
+    ],
+    "totalAmount": 2069.7
+  },
+  {
+    "orderId": "f2d9387d-3cf6-40c1-960e-d52b9b77620f",
+    "userId": "cliente3",
+    "orderDate": "2024-04-10T04:47:14.454Z",
+    "status": "received",
+    "items": [
+      {
+        "productId": "c884d5e6-00ba-4576-a852-08a9e2d33469",
+        "quantity": 4,
+        "totalAmount": 539.6
+      }
+    ],
+    "totalAmount": 539.6
+  },
+  {
+    "orderId": "24fba6fa-b3b6-44b4-8195-45ff2c7c54b8",
+    "userId": "cliente3",
+    "orderDate": "2024-01-06T10:25:32.896Z",
+    "status": "returned",
+    "items": [
+      {
+        "productId": "88c4h62a-44be-457a-a856-08a9e2d33469",
+        "quantity": 2,
+        "totalAmount": 742.3
+      },
+      {
+        "productId": "78441256-a44c-4567-98ab-4b6d49c621e6",
+        "quantity": 2,
+        "totalAmount": 3600
+      }
+    ],
+    "totalAmount": 4342.3
+  },
+  {
+    "orderId": "cbfb1afe-2115-4a6a-967e-7550336f73be",
+    "userId": "cliente4",
+    "orderDate": "2024-09-27T18:57:11.483Z",
+    "status": "delivered",
+    "items": [
+      {
+        "productId": "ad97f35f-a44c-4569-a84b-08a9e2d33469",
+        "quantity": 4,
+        "totalAmount": 100
+      },
+      {
+        "productId": "a8a4f608-22b8-4578-a854-08a9e2d33469",
+        "quantity": 5,
+        "totalAmount": 3449.5
+      }
+    ],
+    "totalAmount": 3549.5
+  },
+  {
+    "orderId": "0fc895c9-1009-452f-b811-c28e40df1389",
+    "userId": "cliente3",
+    "orderDate": "2024-04-27T15:45:47.427Z",
+    "status": "readyToShip",
+    "items": [
+      {
+        "productId": "78441256-a44c-4567-98ab-4b6d49c621e6",
+        "quantity": 1,
+        "totalAmount": 1800
+      },
+      {
+        "productId": "c884d5e6-00ba-4576-a852-08a9e2d33469",
+        "quantity": 5,
+        "totalAmount": 674.5
+      }
+    ],
+    "totalAmount": 2474.5
+  },
+  {
+    "orderId": "debabc06-b534-4f0d-8d84-d7578ad1317f",
+    "userId": "cliente6",
+    "orderDate": "2024-08-17T21:56:12.030Z",
+    "status": "invoiced",
+    "items": [
+      {
+        "productId": "02984876-60f0-4e9c-a053-eb54e1ac86ba",
+        "quantity": 4,
+        "totalAmount": 223.6
+      }
+    ],
+    "totalAmount": 223.6
+  },
+  {
+    "orderId": "acbde62b-f6cf-4bbe-be14-e079a0164926",
+    "userId": "cliente5",
+    "orderDate": "2024-03-02T14:31:25.805Z",
+    "status": "readyToShip",
+    "items": [
+      {
+        "productId": "78441256-a44c-4567-98ab-4b6d49c621e6",
+        "quantity": 1,
+        "totalAmount": 1800
+      },
+      {
+        "productId": "a840dc95-9b49-476e-b844-90cdfc38fd48",
+        "quantity": 3,
+        "totalAmount": 706.5
+      },
+      {
+        "productId": "e4994b44-9684-4568-ab48-04d6e0d55e0e",
+        "quantity": 5,
+        "totalAmount": 1750
+      }
+    ],
+    "totalAmount": 4256.5
+  },
+  {
+    "orderId": "66415914-4e03-44c2-9313-9b99ba3d0612",
+    "userId": "cliente5",
+    "orderDate": "2024-02-10T15:33:03.272Z",
+    "status": "paymentApproved",
+    "items": [
+      {
+        "productId": "98b4g619-33bc-4579-a855-08a9e2d33469",
+        "quantity": 5,
+        "totalAmount": 7499.95
+      },
+      {
+        "productId": "3fa85f64-5717-4562-b3fc-2c963f611b60",
+        "quantity": 2,
+        "totalAmount": 119.98
+      },
+      {
+        "productId": "c884d5e6-00ba-4576-a852-08a9e2d33469",
+        "quantity": 2,
+        "totalAmount": 269.8
+      }
+    ],
+    "totalAmount": 7889.73
+  },
+  {
+    "orderId": "e014a38b-aa74-4a4f-8540-f570f80a557c",
+    "userId": "cliente6",
+    "orderDate": "2024-04-02T07:28:32.463Z",
+    "status": "canceled",
+    "items": [
+      {
+        "productId": "3fa85f64-5717-4562-b3fc-2c963f611b60",
+        "quantity": 1,
+        "totalAmount": 59.99
+      }
+    ],
+    "totalAmount": 59.99
+  },
+  {
+    "orderId": "22290a22-6b40-4c95-87ae-c34151029d7f",
+    "userId": "cliente4",
+    "orderDate": "2024-08-18T16:04:59.975Z",
+    "status": "paymentApproved",
+    "items": [
+      {
+        "productId": "ad97f35f-a44c-4569-a84b-08a9e2d33469",
+        "quantity": 3,
+        "totalAmount": 75
+      }
+    ],
+    "totalAmount": 75
+  },
+  {
+    "orderId": "01e4d972-c66e-42c7-82f2-dbf2271d091d",
+    "userId": "cliente3",
+    "orderDate": "2024-01-06T05:34:10.556Z",
+    "status": "delivered",
+    "items": [
+      {
+        "productId": "c93b9226-6136-4570-a84c-04a9e2d33469",
+        "quantity": 1,
+        "totalAmount": 750.5
+      }
+    ],
+    "totalAmount": 750.5
+  },
+  {
+    "orderId": "109d433c-287e-4a9a-bdc3-a77f4e87f801",
+    "userId": "candidato-user-id",
+    "orderDate": "2024-01-16T18:21:45.628Z",
+    "status": "invoiced",
+    "items": [
+      {
+        "productId": "f854a5b3-d382-4573-a84f-08a9e2d33469",
+        "quantity": 4,
+        "totalAmount": 2396
+      },
+      {
+        "productId": "a840dc95-9b49-476e-b844-90cdfc38fd48",
+        "quantity": 4,
+        "totalAmount": 942
+      },
+      {
+        "productId": "c884d5e6-00ba-4576-a852-08a9e2d33469",
+        "quantity": 3,
+        "totalAmount": 404.70000000000005
+      }
+    ],
+    "totalAmount": 3742.7
+  },
+  {
+    "orderId": "84c00740-2170-4c00-b800-45754f6ecf86",
+    "userId": "cliente3",
+    "orderDate": "2024-06-01T05:35:42.617Z",
+    "status": "inProduction",
+    "items": [
+      {
+        "productId": "ad97f35f-a44c-4569-a84b-08a9e2d33469",
+        "quantity": 3,
+        "totalAmount": 75
+      }
+    ],
+    "totalAmount": 75
+  },
+  {
+    "orderId": "e58ba3ff-ff07-4c57-8f1f-a747d78928b5",
+    "userId": "cliente3",
+    "orderDate": "2024-02-21T04:03:22.697Z",
+    "status": "awaitingPickup",
+    "items": [
+      {
+        "productId": "b894e5f7-11b4-4577-a853-08a9e2d33469",
+        "quantity": 3,
+        "totalAmount": 1170
+      }
+    ],
+    "totalAmount": 1170
+  },
+  {
+    "orderId": "5991c8cb-5a9b-4fbc-8d3e-4aafb5acce90",
+    "userId": "cliente5",
+    "orderDate": "2024-08-26T15:53:55.022Z",
+    "status": "inPreparation",
+    "items": [
+      {
+        "productId": "cb97fac1-2490-4566-b454-93a0b5c21fab",
+        "quantity": 1,
+        "totalAmount": 150
+      }
+    ],
+    "totalAmount": 150
+  },
+  {
+    "orderId": "961a508b-ea35-46e1-b6e8-d846e968aa97",
+    "userId": "cliente5",
+    "orderDate": "2024-06-25T17:21:11.232Z",
+    "status": "inProduction",
+    "items": [
+      {
+        "productId": "9b1deb4d-3b7d-4bad-9efd-d6495fa87d1b",
+        "quantity": 1,
+        "totalAmount": 79.6
+      },
+      {
+        "productId": "ad97f35f-a44c-4569-a84b-08a9e2d33469",
+        "quantity": 4,
+        "totalAmount": 100
+      },
+      {
+        "productId": "e4994b44-9684-4568-ab48-04d6e0d55e0e",
+        "quantity": 1,
+        "totalAmount": 350
+      }
+    ],
+    "totalAmount": 529.6
+  },
+  {
+    "orderId": "3547d21a-f439-4c1f-9e2d-024f2dadd509",
+    "userId": "cliente1",
+    "orderDate": "2024-04-28T23:15:09.913Z",
+    "status": "awaitingPickup",
+    "items": [
+      {
+        "productId": "c884d5e6-00ba-4576-a852-08a9e2d33469",
+        "quantity": 4,
+        "totalAmount": 539.6
+      }
+    ],
+    "totalAmount": 539.6
+  },
+  {
+    "orderId": "52ef0380-9c61-4b1f-9d1f-ed8c18821cc5",
+    "userId": "cliente5",
+    "orderDate": "2024-05-15T15:18:25.731Z",
+    "status": "readyToShip",
+    "items": [
+      {
+        "productId": "02984876-60f0-4e9c-a053-eb54e1ac86ba",
+        "quantity": 4,
+        "totalAmount": 223.6
+      },
+      {
+        "productId": "d84578ac-2156-4572-a84e-08a9e2d33469",
+        "quantity": 5,
+        "totalAmount": 1650
+      },
+      {
+        "productId": "c93b9226-6136-4570-a84c-04a9e2d33469",
+        "quantity": 4,
+        "totalAmount": 3002
+      }
+    ],
+    "totalAmount": 4875.6
+  },
+  {
+    "orderId": "260ef1ff-5774-4a8d-877d-1a747f3576b9",
+    "userId": "cliente2",
+    "orderDate": "2024-03-14T10:17:50.109Z",
+    "status": "readyToShip",
+    "items": [
+      {
+        "productId": "d874c5d5-f1aa-4575-a851-08a9e2d33469",
+        "quantity": 4,
+        "totalAmount": 1125
+      },
+      {
+        "productId": "c884d5e6-00ba-4576-a852-08a9e2d33469",
+        "quantity": 4,
+        "totalAmount": 539.6
+      },
+      {
+        "productId": "98b4g619-33bc-4579-a855-08a9e2d33469",
+        "quantity": 5,
+        "totalAmount": 7499.95
+      }
+    ],
+    "totalAmount": 9164.55
+  },
+  {
+    "orderId": "5a3ee989-f680-4f77-a00b-ea0392463bab",
+    "userId": "cliente2",
+    "orderDate": "2024-04-18T18:05:57.290Z",
+    "status": "readyToShip",
+    "items": [
+      {
+        "productId": "e864b5c4-e2b6-4574-a850-08a9e2d33469",
+        "quantity": 2,
+        "totalAmount": 740.6
+      }
+    ],
+    "totalAmount": 740.6
+  },
+  {
+    "orderId": "6daf78dd-167e-464b-9834-7d2565a04b9a",
+    "userId": "candidato-user-id",
+    "orderDate": "2024-10-08T20:52:17.748Z",
+    "status": "inPreparation",
+    "items": [
+      {
+        "productId": "ad97f35f-a44c-4569-a84b-08a9e2d33469",
+        "quantity": 4,
+        "totalAmount": 100
+      },
+      {
+        "productId": "88c4h62a-44be-457a-a856-08a9e2d33469",
+        "quantity": 3,
+        "totalAmount": 1113.4499999999998
+      }
+    ],
+    "totalAmount": 1213.4499999999998
+  },
+  {
+    "orderId": "2dafd3a9-7797-4484-abdc-2814a347fe25",
+    "userId": "cliente3",
+    "orderDate": "2024-05-01T15:33:30.459Z",
+    "status": "shipped",
+    "items": [
+      {
+        "productId": "e4994b44-9684-4568-ab48-04d6e0d55e0e",
+        "quantity": 1,
+        "totalAmount": 350
+      },
+      {
+        "productId": "88c4h62a-44be-457a-a856-08a9e2d33469",
+        "quantity": 1,
+        "totalAmount": 371.15
+      }
+    ],
+    "totalAmount": 721.15
+  },
+  {
+    "orderId": "375427c6-bbe6-4fb2-8555-10709aa057cc",
+    "userId": "candidato-user-id",
+    "orderDate": "2024-04-17T17:00:36.527Z",
+    "status": "readyToShip",
+    "items": [
+      {
+        "productId": "a8763fdc-b9ad-4571-a84d-08a9e2d33469",
+        "quantity": 2,
+        "totalAmount": 867.5
+      },
+      {
+        "productId": "b894e5f7-11b4-4577-a853-08a9e2d33469",
+        "quantity": 3,
+        "totalAmount": 1170
+      },
+      {
+        "productId": "cb97fac1-2490-4566-b454-93a0b5c21fab",
+        "quantity": 4,
+        "totalAmount": 600
+      }
+    ],
+    "totalAmount": 2637.5
+  },
+  {
+    "orderId": "215a4dda-c28f-4045-be2c-aa1761167211",
+    "userId": "cliente6",
+    "orderDate": "2024-09-20T01:16:43.283Z",
+    "status": "inPreparation",
+    "items": [
+      {
+        "productId": "78441256-a44c-4567-98ab-4b6d49c621e6",
+        "quantity": 4,
+        "totalAmount": 7200
+      },
+      {
+        "productId": "3fa85f64-5717-4562-b3fc-2c963f611b60",
+        "quantity": 3,
+        "totalAmount": 179.97
+      },
+      {
+        "productId": "a8763fdc-b9ad-4571-a84d-08a9e2d33469",
+        "quantity": 3,
+        "totalAmount": 1301.25
+      }
+    ],
+    "totalAmount": 8681.220000000001
+  },
+  {
+    "orderId": "b7c3e0fb-f16d-4c6f-898f-dc0c1e96095e",
+    "userId": "cliente6",
+    "orderDate": "2024-04-21T21:41:13.602Z",
+    "status": "inProduction",
+    "items": [
+      {
+        "productId": "e864b5c4-e2b6-4574-a850-08a9e2d33469",
+        "quantity": 4,
+        "totalAmount": 1481.2
+      },
+      {
+        "productId": "3fa85f64-5717-4562-b3fc-2c963f611b60",
+        "quantity": 5,
+        "totalAmount": 299.95
+      }
+    ],
+    "totalAmount": 1781.15
+  },
+  {
+    "orderId": "a4f69f3c-e72f-40a3-aa40-0fa97fcc337b",
+    "userId": "cliente3",
+    "orderDate": "2024-02-04T15:56:50.828Z",
+    "status": "delivered",
+    "items": [
+      {
+        "productId": "ad97f35f-a44c-4569-a84b-08a9e2d33469",
+        "quantity": 4,
+        "totalAmount": 100
+      },
+      {
+        "productId": "cb97fac1-2490-4566-b454-93a0b5c21fab",
+        "quantity": 2,
+        "totalAmount": 300
+      }
+    ],
+    "totalAmount": 400
+  },
+  {
+    "orderId": "13bd25c5-e754-4c69-929b-9ce7cb165ba3",
+    "userId": "candidato-user-id",
+    "orderDate": "2024-09-21T16:44:32.473Z",
+    "status": "awaitingPickup",
+    "items": [
+      {
+        "productId": "c93b9226-6136-4570-a84c-04a9e2d33469",
+        "quantity": 5,
+        "totalAmount": 3752.5
+      }
+    ],
+    "totalAmount": 3752.5
+  },
+  {
+    "orderId": "db9fbe3b-61e7-442c-b10a-c2247c993bd9",
+    "userId": "cliente5",
+    "orderDate": "2024-05-12T23:35:21.262Z",
+    "status": "delivered",
+    "items": [
+      {
+        "productId": "a8763fdc-b9ad-4571-a84d-08a9e2d33469",
+        "quantity": 5,
+        "totalAmount": 2168.75
+      },
+      {
+        "productId": "f854a5b3-d382-4573-a84f-08a9e2d33469",
+        "quantity": 1,
+        "totalAmount": 599
+      },
+      {
+        "productId": "88c4h62a-44be-457a-a856-08a9e2d33469",
+        "quantity": 2,
+        "totalAmount": 742.3
+      }
+    ],
+    "totalAmount": 3510.05
+  },
+  {
+    "orderId": "089b4f50-c9fe-4c2f-a56a-3b168f517d2a",
+    "userId": "cliente3",
+    "orderDate": "2024-04-05T20:40:47.426Z",
+    "status": "awaitingPickup",
+    "items": [
+      {
+        "productId": "ad97f35f-a44c-4569-a84b-08a9e2d33469",
+        "quantity": 4,
+        "totalAmount": 100
+      },
+      {
+        "productId": "e864b5c4-e2b6-4574-a850-08a9e2d33469",
+        "quantity": 1,
+        "totalAmount": 370.3
+      },
+      {
+        "productId": "f854a5b3-d382-4573-a84f-08a9e2d33469",
+        "quantity": 2,
+        "totalAmount": 1198
+      }
+    ],
+    "totalAmount": 1668.3
+  },
+  {
+    "orderId": "bcc0068d-ace6-4013-8ec2-9f7a3189f307",
+    "userId": "candidato-user-id",
+    "orderDate": "2024-05-16T16:21:51.269Z",
+    "status": "received",
+    "items": [
+      {
+        "productId": "88c4h62a-44be-457a-a856-08a9e2d33469",
+        "quantity": 1,
+        "totalAmount": 371.15
+      }
+    ],
+    "totalAmount": 371.15
+  }
+]

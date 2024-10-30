@@ -1,0 +1,97 @@
+[
+  {
+    "productId": "3fa85f64-5717-4562-b3fc-2c963f611b60",
+    "name": "Camiseta estampada",
+    "price": 59.99
+  },
+  {
+    "productId": "a840dc95-9b49-476e-b844-90cdfc38fd48",
+    "name": "Tênis esportivo",
+    "price": 235.50
+  },
+  {
+    "productId": "cb97fac1-2490-4566-b454-93a0b5c21fab",
+    "name": "Calça jeans skinny",
+    "price": 150
+  },
+  {
+    "productId": "02984876-60f0-4e9c-a053-eb54e1ac86ba",
+    "name": "Boné de baseball",
+    "price": 55.90
+  },
+  {
+    "productId": "78441256-a44c-4567-98ab-4b6d49c621e6",
+    "name": "Relógio inteligente",
+    "price": 1800
+  },
+  {
+    "productId": "e4994b44-9684-4568-ab48-04d6e0d55e0e",
+    "name": "Fone de ouvido sem fio",
+    "price": 350
+  },
+  {
+    "productId": "9b1deb4d-3b7d-4bad-9efd-d6495fa87d1b",
+    "name": "Livro de ficção científica",
+    "price": 79.60
+  },
+  {
+    "productId": "ad97f35f-a44c-4569-a84b-08a9e2d33469",
+    "name": "Caneca personalizada",
+    "price": 25
+  },
+  {
+    "productId": "c93b9226-6136-4570-a84c-04a9e2d33469",
+    "name": "Óculos de sol polarizados",
+    "price": 750.50
+  },
+  {
+    "productId": "a8763fdc-b9ad-4571-a84d-08a9e2d33469",
+    "name": "Perfume masculino",
+    "price": 433.75
+  },
+  {
+    "productId": "d84578ac-2156-4572-a84e-08a9e2d33469",
+    "name": "Bolsa feminina",
+    "price": 330
+  },
+  {
+    "productId": "f854a5b3-d382-4573-a84f-08a9e2d33469",
+    "name": "Tênis de corrida",
+    "price": 599
+  },
+  {
+    "productId": "e864b5c4-e2b6-4574-a850-08a9e2d33469",
+    "name": "Chuteira de futebol",
+    "price": 370.3
+  },
+  {
+    "productId": "d874c5d5-f1aa-4575-a851-08a9e2d33469",
+    "name": "Raquete de tênis",
+    "price": 281.25
+  },
+  {
+    "productId": "c884d5e6-00ba-4576-a852-08a9e2d33469",
+    "name": "Bola de basquete",
+    "price": 134.90
+  },
+  {
+    "productId": "b894e5f7-11b4-4577-a853-08a9e2d33469",
+    "name": "Skate completo",
+    "price": 390.00
+  },
+  {
+    "productId": "a8a4f608-22b8-4578-a854-08a9e2d33469",
+    "name": "Violão acústico",
+    "price": 689.90
+  },
+  {
+    "productId": "98b4g619-33bc-4579-a855-08a9e2d33469",
+    "name": "Guitarra elétrica",
+    "price": 1499.99
+  },
+  {
+    "productId": "88c4h62a-44be-457a-a856-08a9e2d33469",
+    "name": "Teclado gamer",
+    "price": 371.15
+  }
+]

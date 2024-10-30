@@ -1,0 +1,6 @@
+{
+  "Parameters" : {
+    "StackEnvironment": "dev",
+    "StackName": "serverless-backend-test"
+  }
+}
