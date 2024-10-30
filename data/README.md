@@ -69,4 +69,5 @@ interface Produtc {
   /** Preço do produto */
   price: number
 }
+
 ```
