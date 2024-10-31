@@ -196,6 +196,3 @@ components:
             $ref: '#/components/schemas/OrderItem'
         totalAmount:
           type: number
-          
-
-
