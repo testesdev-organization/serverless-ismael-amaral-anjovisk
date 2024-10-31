@@ -3,13 +3,13 @@ import OrdersRepositoryImpl from './Repository/OrdersRepositoryImpl'
 import { OrdersS3 } from './DB/OrdersS3'
 import { type SortType } from './Repository/types/OrdersRepository'
 
-const AWS_REGION = process.env.AWS_REGION ?? 'sa-east-1'
+const STACK_REGION = process.env.STACK_REGION ?? 'sa-east-1'
 const ORDERS_BUCKET = process.env.ORDERS_BUCKET ?? ''
 const ORDERS_FILE_KEY = process.env.ORDERS_FILE_KEY ?? ''
 
 const ordersRepository = new OrdersRepositoryImpl({
   dependencies: {
-    orderDB: new OrdersS3({ awsRegion: AWS_REGION, bucket: ORDERS_BUCKET, fileKey: ORDERS_FILE_KEY })
+    orderDB: new OrdersS3({ awsRegion: STACK_REGION, bucket: ORDERS_BUCKET, fileKey: ORDERS_FILE_KEY })
   }
 })
 

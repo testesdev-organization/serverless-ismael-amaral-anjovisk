@@ -134,7 +134,7 @@ Resources:
         - x86_64
       Environment:
         Variables:
-          AWS_REGION: !Ref "AWS::Region"
+          STACK_REGION: !Ref "AWS::Region"
           ORDERS_BUCKET: 'serverless-backend-test-dev-orders'
           ORDERS_FILE_KEY: 'orders.json'
       Layers:
@@ -175,7 +175,7 @@ Resources:
         - x86_64
       Environment:
         Variables:
-          AWS_REGION: !Ref "AWS::Region"
+          STACK_REGION: !Ref "AWS::Region"
           ORDERS_BUCKET: 'serverless-backend-test-dev-orders'
           ORDERS_FILE_KEY: 'orders.json'
       Layers:
