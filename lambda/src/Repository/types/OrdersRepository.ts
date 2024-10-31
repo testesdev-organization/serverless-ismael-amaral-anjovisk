@@ -58,11 +58,11 @@ export interface OrderData {
 export type SortType = 'ASC' | 'DESC'
 
 export interface OrdersDB {
-  listOrders: (params: { sort: SortType }) => Promise<OrderData[]>
-  getOrderById: (params: { orderId: string }) => Promise<OrderData | undefined>
+  listOrders: (params: { userId: string, sort: SortType }) => Promise<OrderData[]>
+  getOrderById: (params: { userId: string, orderId: string }) => Promise<OrderData | undefined>
 }
 
 export interface OrdersRepository {
-  listOrders: (params: { sort: SortType }) => Promise<OrderData[]>
-  getOrderById: (params: { orderId: string }) => Promise<OrderData | undefined>
+  listOrders: (params: { userId: string, sort: SortType }) => Promise<OrderData[]>
+  getOrderById: (params: { userId: string, orderId: string }) => Promise<OrderData | undefined>
 }

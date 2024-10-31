@@ -17,19 +17,19 @@ export class OrdersS3 implements OrdersDB {
     this._fileKey = params.fileKey
   }
 
-  getOrderById = async (params: { orderId: string }): Promise<OrderData | undefined> => {
-    return (await this._getOrders()).find(order => order.orderId.toUpperCase() === params.orderId.toUpperCase())
+  getOrderById = async (params: { userId: string, orderId: string }): Promise<OrderData | undefined> => {
+    return (await this._getOrders({ userId: params.userId })).find(order => order.orderId.toUpperCase() === params.orderId.toUpperCase())
   }
 
-  listOrders = async (params: { sort: SortType }): Promise<OrderData[]> => {
-    return (await this._getOrders()).sort((a, b) => {
+  listOrders = async (params: { userId: string, sort: SortType }): Promise<OrderData[]> => {
+    return (await this._getOrders({ userId: params.userId })).sort((a, b) => {
       const aDate = new Date(a.orderDate).getTime().toString()
       const bDate = new Date(b.orderDate).getTime().toString()
       return params.sort === 'ASC' ? aDate.localeCompare(bDate) : bDate.localeCompare(aDate)
     })
   }
 
-  private readonly _getOrders = async (): Promise<OrderData[]> => {
+  private readonly _getOrders = async (params: { userId: string }): Promise<OrderData[]> => {
     if (this._orders === undefined) {
       const client = new S3Client({ region: this._awsRegion })
       const command = new GetObjectCommand({
@@ -43,6 +43,6 @@ export class OrdersS3 implements OrdersDB {
       }))
       this._orders = orders
     }
-    return this._orders
+    return this._orders.filter(order => order.userId.toUpperCase() === params.userId.toUpperCase())
   }
 }

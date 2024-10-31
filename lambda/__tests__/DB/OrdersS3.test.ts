@@ -1,6 +1,5 @@
 const sendMock = jest.fn()
 const getCommandOutputMock = jest.fn()
-const transformToStringMock = jest.fn()
 
 jest.mock('@aws-sdk/client-s3', () => {
   return {
@@ -32,7 +31,7 @@ describe('listOrders', () => {
   it('should return empty list', async () => {
     const ordersS3 = new OrdersS3({ awsRegion, bucket, fileKey })
     sendMock.mockImplementationOnce(() => Promise.resolve({}))
-    const result = await ordersS3.listOrders({ sort: 'ASC' })
+    const result = await ordersS3.listOrders({ userId, sort: 'ASC' })
     expect(result).toEqual([])
   })
 
@@ -42,11 +41,12 @@ describe('listOrders', () => {
       Body: {
         transformToString: () => Promise.resolve(JSON.stringify([
           { ...orderLastDate },
-          { ...orderPriorDate }
+          { ...orderPriorDate },
+          { ...orderAnotherUser }
         ]))
       }
     }))
-    const result = await ordersS3.listOrders({ sort: 'ASC' })
+    const result = await ordersS3.listOrders({ userId, sort: 'ASC' })
     expect(result).toEqual([
       { ...orderPriorDate },
       { ...orderLastDate }
@@ -59,11 +59,12 @@ describe('listOrders', () => {
       Body: {
         transformToString: () => Promise.resolve(JSON.stringify([
           { ...orderLastDate },
-          { ...orderPriorDate }
+          { ...orderPriorDate },
+          { ...orderAnotherUser }
         ]))
       }
     }))
-    const result = await ordersS3.listOrders({ sort: 'DESC' })
+    const result = await ordersS3.listOrders({ userId, sort: 'DESC' })
     expect(result).toEqual([
       { ...orderLastDate },
       { ...orderPriorDate }
@@ -84,45 +85,58 @@ describe('getOrderById', () => {
     jest.clearAllMocks()
   })
 
-  it('should return empty list', async () => {
-    const ordersS3 = new OrdersS3({ awsRegion, bucket, fileKey })
-    sendMock.mockImplementationOnce(() => Promise.resolve({}))
-    const result = await ordersS3.listOrders({ sort: 'ASC' })
-    expect(result).toEqual([])
-  })
-
   it('should return order', async () => {
     const ordersS3 =new OrdersS3({ awsRegion, bucket, fileKey })
     sendMock.mockImplementationOnce(() => Promise.resolve({
       Body: {
         transformToString: () => Promise.resolve(JSON.stringify([
           { ...orderLastDate },
-          { ...orderPriorDate }
+          { ...orderPriorDate },
+          { ...orderAnotherUser }
         ]))
       }
     }))
-    const result = await ordersS3.getOrderById({ orderId: orderLastDate.orderId })
+    const result = await ordersS3.getOrderById({ userId, orderId: orderLastDate.orderId })
     expect(result).toEqual({ ...orderLastDate, orderDate: new Date(orderLastDate.orderDate) })
   })
 
-  it('should return undefiend', async () => {
+  it('should return undefiend - invalid order id', async () => {
     const ordersS3 =new OrdersS3({ awsRegion, bucket, fileKey })
     sendMock.mockImplementationOnce(() => Promise.resolve({
       Body: {
         transformToString: () => Promise.resolve(JSON.stringify([
           { ...orderLastDate },
-          { ...orderPriorDate }
+          { ...orderPriorDate },
+          { ...orderAnotherUser }
         ]))
       }
     }))
-    const result = await ordersS3.getOrderById({ orderId: 'invalid-order-id' })
+    const result = await ordersS3.getOrderById({ userId, orderId: 'invalid-order-id' })
+    expect(result).toEqual(undefined)
+  })
+
+  it('should return undefiend - order belongs to another user', async () => {
+    const ordersS3 =new OrdersS3({ awsRegion, bucket, fileKey })
+    sendMock.mockImplementationOnce(() => Promise.resolve({
+      Body: {
+        transformToString: () => Promise.resolve(JSON.stringify([
+          { ...orderLastDate },
+          { ...orderPriorDate },
+          { ...orderAnotherUser }
+        ]))
+      }
+    }))
+    const result = await ordersS3.getOrderById({ userId: orderAnotherUser.userId, orderId: orderLastDate.orderId })
     expect(result).toEqual(undefined)
   })
 })
 
+const userId = 'fb7c5d6c-1363-4e7a-b3c0-cf35d57f6ac5'
+const anotherUserId = 'cliente1'
+
 const orderPriorDate = {
   "orderId": "d058b0c7-bcfe-436e-998e-722f712e2bdf",
-  "userId": "cliente6",
+  "userId": userId,
   "orderDate": "2024-04-30T08:06:52.885Z",
   "status": "readyToShip",
   "items": [
@@ -146,7 +160,7 @@ const orderPriorDate = {
 }
 const orderLastDate = {
   "orderId": "72ab33eb-42a7-4e8c-8f15-d1fe232c79fd",
-  "userId": "cliente2",
+  "userId": userId,
   "orderDate": "2024-09-14T16:41:02.779Z",
   "status": "readyToShip",
   "items": [
@@ -167,4 +181,18 @@ const orderLastDate = {
     }
   ],
   "totalAmount": 4860.47
+}
+const orderAnotherUser = {
+  "orderId": "3c86010b-63c1-4be1-9a2d-eb0ecd30addf",
+  "userId": anotherUserId,
+  "orderDate": "2024-09-14T05:07:53.453Z",
+  "status": "paymentApproved",
+  "items": [
+    {
+      "productId": "78441256-a44c-4567-98ab-4b6d49c621e6",
+      "quantity": 5,
+      "totalAmount": 9000
+    }
+  ],
+  "totalAmount": 9000
 }

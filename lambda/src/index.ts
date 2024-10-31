@@ -31,11 +31,11 @@ export const handleOrdersRestAPI = async (
   context: Context
 ): Promise<APIGatewayProxyResult> => {
   try {
-    validateAndGetUserId(event)
+    const userId = validateAndGetUserId(event)
     const sort = (event.queryStringParameters?.sort ?? 'DESC').toUpperCase() as SortType
     return {
       statusCode: 200,
-      body: JSON.stringify(await ordersRepository.listOrders({ sort }))
+      body: JSON.stringify(await ordersRepository.listOrders({ userId, sort }))
     }
   } catch (error: any) {
     if (error.message === 'Unauthorized') {
@@ -56,7 +56,7 @@ export const handleOrderByIdRestAPI = async (
   context: Context
 ): Promise<APIGatewayProxyResult> => {
   try {
-    validateAndGetUserId(event)
+    const userId = validateAndGetUserId(event)
     const orderId = event.pathParameters?.orderId
     if (orderId === undefined || (orderId ?? '') === '') {
       return {
@@ -64,7 +64,7 @@ export const handleOrderByIdRestAPI = async (
         body: ''
       }
     }
-    const order = await ordersRepository.getOrderById({ orderId })
+    const order = await ordersRepository.getOrderById({ userId, orderId })
     if (order === undefined) {
       return {
         statusCode: 404,

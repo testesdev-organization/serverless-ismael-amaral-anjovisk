@@ -33,7 +33,7 @@ describe('listOrders', () => {
       { ...orderLastDate }
 
     ]))
-    const result = await ordersRepository.listOrders({ sort: 'ASC' })
+    const result = await ordersRepository.listOrders({ userId, sort: 'ASC' })
     expect(result).toEqual([
       { ...orderPriorDate },
       { ...orderLastDate }
@@ -56,10 +56,12 @@ describe('getOrderById', () => {
 
   it('should return order', async () => {
     getOrderByIdMock.mockImplementationOnce(() => Promise.resolve({ ...orderPriorDate }))
-    const result = await ordersRepository.getOrderById({ orderId: orderPriorDate.orderId })
+    const result = await ordersRepository.getOrderById({ userId, orderId: orderPriorDate.orderId })
     expect(result).toEqual({ ...orderPriorDate })
   })
 })
+
+const userId = 'fb7c5d6c-1363-4e7a-b3c0-cf35d57f6ac5'
 
 const orderPriorDate: OrderData = {
   "orderId": "d058b0c7-bcfe-436e-998e-722f712e2bdf",

@@ -10,11 +10,11 @@ export default class OrdersRepositoryImpl implements OrdersRepository {
     this._orderDB = params.dependencies.orderDB
   }
 
-  getOrderById = async (params: { orderId: string }): Promise<OrderData | undefined> => {
-    return await this._orderDB.getOrderById({ orderId: params.orderId })
+  getOrderById = async (params: { userId: string, orderId: string }): Promise<OrderData | undefined> => {
+    return await this._orderDB.getOrderById({ userId: params.userId, orderId: params.orderId })
   }
 
-  listOrders = async (params: { sort: SortType }): Promise<OrderData[]> => {
-    return await this._orderDB.listOrders({ sort: params.sort })
+  listOrders = async (params: { userId: string, sort: SortType }): Promise<OrderData[]> => {
+    return await this._orderDB.listOrders({ userId: params.userId, sort: params.sort })
   }
 }
