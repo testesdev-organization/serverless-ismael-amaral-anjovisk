@@ -132,6 +132,11 @@ Resources:
       Handler: index.handleOrdersRestAPI
       Architectures:
         - x86_64
+      Environment:
+        Variables:
+          AWS_REGION: !Ref "AWS::Region"
+          ORDERS_BUCKET: 'serverless-backend-test-dev-orders'
+          ORDERS_FILE_KEY: 'orders.json'
       Layers:
         - !Ref DeveloperTestLayerV1
       Events:
@@ -141,6 +146,11 @@ Resources:
             RestApiId: !Ref DeveloperTestApiGatewayApi
             Path: /v1/orders
             Method: get
+            Auth:
+              Authorizer: CognitoAuthorizer
+      Policies:
+        - S3ReadPolicy:
+            BucketName: 'serverless-backend-test-dev-orders'
       Tags:
         "pfm:application:name": !Sub '${ApplicationName}-${StackName}-${StackEnvironment}'
         "pfm:application:resource": !Sub '${ApplicationName}-${StackName}-${StackEnvironment}-GetOrders'
@@ -163,6 +173,11 @@ Resources:
       Handler: index.handleOrderByIdRestAPI
       Architectures:
         - x86_64
+      Environment:
+        Variables:
+          AWS_REGION: !Ref "AWS::Region"
+          ORDERS_BUCKET: 'serverless-backend-test-dev-orders'
+          ORDERS_FILE_KEY: 'orders.json'
       Layers:
         - !Ref DeveloperTestLayerV1
       Events:
@@ -172,6 +187,11 @@ Resources:
             RestApiId: !Ref DeveloperTestApiGatewayApi
             Path: /v1/orders/{orderId}
             Method: get
+            Auth:
+              Authorizer: CognitoAuthorizer
+      Policies:
+        - S3ReadPolicy:
+            BucketName: 'serverless-backend-test-dev-orders'
       Tags:
         "pfm:application:name": !Sub '${ApplicationName}-${StackName}-${StackEnvironment}'
         "pfm:application:resource": !Sub '${ApplicationName}-${StackName}-${StackEnvironment}-GetOrderById'
